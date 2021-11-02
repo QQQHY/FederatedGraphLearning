@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="zh-CN" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Federated Graph Learning &mdash; FL 0.01 文档</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/translations.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="索引" href="../genindex.html" />
+    <link rel="search" title="搜索" href="../search.html" />
+    <link rel="prev" title="Graph Learning" href="GL.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> FL
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="在文档中搜索" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Paper List</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../FL.html">Federated Learning</a></li>
+<li class="toctree-l2"><a class="reference internal" href="GL.html">Graph Learning</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Federated Graph Learning</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">FL</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="index.html">Paper List</a> &raquo;</li>
+      <li>Federated Graph Learning</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/FedGraphLearning/FGL.md.txt" rel="nofollow"> 查看页面源码</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="federated-graph-learning">
+<h1>Federated Graph Learning<a class="headerlink" href="#federated-graph-learning" title="永久链接至标题"></a></h1>
+<p>Generally sorted by date.</p>
+<hr class="docutils" />
+<ul>
+<li><p><strong>Subgraph Federated Learning with Missing Neighbor Generation</strong></p>
+<ul>
+<li><p>Author(s) : Ke Zhang, Carl Yang, Xiaoxiao Li, Lichao Sun, Siu Ming Yiu</p></li>
+<li><p>Publication: NeurIPS 2021</p></li>
+<li><p>Date: 25 Jun 2021</p></li>
+<li><p>Link: <a class="reference external" href="https://arxiv.org/abs/2106.13430">https://arxiv.org/abs/2106.13430</a></p></li>
+<li><details>   
+<summary>
+Abstract    
+</summary>
+Graphs have been widely used in data mining and machine learning due to their unique representation of real-world objects and their interactions. As graphs are getting bigger and bigger nowadays, it is common to see their subgraphs separately collected and stored in multiple local systems. Therefore, it is natural to consider the subgraph federated learning setting, where each local system holds a small subgraph that may be biased from the distribution of the whole graph. Hence, the subgraph federated learning aims to collaboratively train a powerful and generalizable graph mining model without directly sharing their graph data. In this work, towards the novel yet realistic setting of subgraph federated learning, we propose two major techniques: (1) FedSage, which trains a GraphSage model based on FedAvg to integrate node features, link structures, and task labels on multiple local subgraphs; (2) FedSage+, which trains a missing neighbor generator along FedSage to deal with missing links across local subgraphs. Empirical results on four real-world graph datasets with synthesized subgraph federated learning settings demonstrate the effectiveness and efficiency of our proposed techniques. At the same time, consistent theoretical implications are made towards their generalization ability on the global graphs.
+</details></li>
+<li><p>Note</p>
+<ul class="simple">
+<li><p>FedSage : FedAvg + GraphSage</p></li>
+<li><p>FedSage+ : FedSage + Missing neighbor generator</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr class="docutils" />
+<ul>
+<li><p><strong>Differentially Private Federated Knowledge Graphs Embedding</strong></p>
+<ul>
+<li><p>Author(s): Hao Peng, Haoran Li, Yangqiu Song, Vincent Zheng, Jianxin Li</p></li>
+<li><p>Publication: CIKM 2021</p></li>
+<li><p>Date: 17 May 2021</p></li>
+<li><p>Link: <a class="reference external" href="https://arxiv.org/abs/2105.07615">https://arxiv.org/abs/2105.07615</a></p></li>
+<li><details>   
+<summary>
+Abstract    
+</summary>
+Knowledge graph embedding plays an important role in knowledge representation, reasoning, and data mining applications. However, for multiple cross-domain knowledge graphs, state-of-the-art embedding models cannot make full use of the data from different knowledge domains while preserving the privacy of exchanged data. In addition, the centralized embedding model may not scale to the extensive real-world knowledge graphs. Therefore, we propose a novel decentralized scalable learning framework, \emph{Federated Knowledge Graphs Embedding} (FKGE), where embeddings from different knowledge graphs can be learnt in an asynchronous and peer-to-peer manner while being privacy-preserving. FKGE exploits adversarial generation between pairs of knowledge graphs to translate identical entities and relations of different domains into near embedding spaces. In order to protect the privacy of the training data, FKGE further implements a privacy-preserving neural network structure to guarantee no raw data leakage. We conduct extensive experiments to evaluate FKGE on 11 knowledge graphs, demonstrating a significant and consistent improvement in model quality with at most 17.85\% and 7.90\% increases in performance on triple classification and link prediction tasks.
+</details></li>
+<li><p>Note</p>
+<ul class="simple">
+<li><p>Knowledge Graph</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr class="docutils" />
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="GL.html" class="btn btn-neutral float-left" title="Graph Learning" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> 上一页</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; 版权所有 2021, Hongyu.</p>
+  </div>
+
+  利用 <a href="https://www.sphinx-doc.org/">Sphinx</a> 构建，使用了 
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">主题</a>
+    由 <a href="https://readthedocs.org">Read the Docs</a>开发.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

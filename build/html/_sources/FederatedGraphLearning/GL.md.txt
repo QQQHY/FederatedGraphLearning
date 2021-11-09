@@ -13,7 +13,3 @@ Generally sorted by date.
   - Note
     - Heterogeneous graph neural network
     - R-GCN
-
-- [图的鲁棒性优质论文推荐](https://zhuanlan.zhihu.com/p/427216281)
-
-***

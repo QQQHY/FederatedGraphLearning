@@ -62,5 +62,3 @@ Generally sorted by category and date.
 - **Improving Federated Relational Data Modeling via Basis Alignment and Weight Penalty.** [Link](https://arxiv.org/pdf/2011.11369)
 - **Federated Knowledge Graphs Embedding.**[Link](https://arxiv.org/pdf/2105.07615)
 - **Leveraging a Federation of Knowledge Graphs to Improve Faceted Search in Digital Libraries.** [Link](https://arxiv.org/pdf/2107.05447)
-
-***

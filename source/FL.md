@@ -13,18 +13,25 @@
   - *Github* [Awesome-Federated-Learning-on-Graph-and-GNN-papers](https://github.com/topics/counterfactual-explanations)
   - [论文清单 联邦学习与图神经网络 21年·上](https://zhuanlan.zhihu.com/p/364602065)
   - [论文清单 联邦学习与图神经网络 21年·下](https://zhuanlan.zhihu.com/p/428104203)
-
+  - [专栏: 基于GNN的联邦学习](https://www.zhihu.com/column/c_1439169871557328896)
+  
 ## GNN
 
 - Material
+  - [李沐：零基础多图详解图神经网络（GNN/GCN）【论文精读】](https://www.bilibili.com/video/BV1iT4y1d7zP)
+  - [A Gentle Introduction to Graph Neural Networks](https://distill.pub/2021/gnn-intro/)
+  - [Understanding Convolutions on Graphs](https://distill.pub/2021/understanding-gnns/)
   - *Github* [Awesome-Graph-GNN-Recommendation](https://github.com/huweibo/Awesome-Graph-GNN-Recommendation)
   - [Heterogeneous Graph Neural Network](https://dl.acm.org/doi/pdf/10.1145/3292500.3330961) 2019 SIGKDD
-  - [支持异构图、集成GraphGym，超好用的图神经网络库PyG更新2.0版本](https://zhuanlan.zhihu.com/p/410246261)
   - [异构图神经网络入门笔记(1)：从R-GCN到HetG] <https://zhuanlan.zhihu.com/p/395221075>
   - [异构图神经网络入门笔记(2)：CompGCN] <https://zhuanlan.zhihu.com/p/400137386>
   - [GNN based Recommender Systems](https://github.com/tsinghua-fib-lab/GNN-Recommender-Systems)
   - [图神经网络实战专栏目录](https://zhuanlan.zhihu.com/p/419827839)
   - [GraphGallery：几行代码玩转图神经网络](https://zhuanlan.zhihu.com/p/419511954 "中山大学图学习团队开发的图神经网络基准模型库GraphGallery")
+  - [支持异构图、集成GraphGym，超好用的图神经网络库PyG更新2.0版本](https://zhuanlan.zhihu.com/p/410246261)
+  - [图神经网络之神器——PyTorch Geometric 上手 & 实战](https://zhuanlan.zhihu.com/p/94491664)
+  - [图的鲁棒性优质论文推荐](https://zhuanlan.zhihu.com/p/427216281)
+  - *Github* [Awesome-GNN-Research](https://github.com/XunKaiLi/Awesome-GNN-Research)
 
 ## Federated Recommendation Systems
 

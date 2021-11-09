@@ -44,6 +44,7 @@ Generally sorted by category and date.
 - **A Federated Multigraph Integration Approach for Connectional Brain Template Learning.** [Link](https://link.springer.com/chapter/10.1007/978-3-030-89847-2_4)
 - **Federated Graph Learning -- A Position Paper** [Link](https://arxiv.org/abs/2105.11099)
 - FedGL: Federated Graph Learning Framework with Global Self-Supervision [Link](https://arxiv.org/abs/2105.03170)
+
 ***
 
 ## FL & Knowledge Graph
@@ -61,5 +62,3 @@ Generally sorted by category and date.
 - **Improving Federated Relational Data Modeling via Basis Alignment and Weight Penalty.** [Link](https://arxiv.org/pdf/2011.11369)
 - **Federated Knowledge Graphs Embedding.**[Link](https://arxiv.org/pdf/2105.07615)
 - **Leveraging a Federation of Knowledge Graphs to Improve Faceted Search in Digital Libraries.** [Link](https://arxiv.org/pdf/2107.05447)
-
-***

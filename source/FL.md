@@ -19,20 +19,39 @@
 
 - Material
   - [李沐：零基础多图详解图神经网络（GNN/GCN）【论文精读】](https://www.bilibili.com/video/BV1iT4y1d7zP)
-  - [A Gentle Introduction to Graph Neural Networks](https://distill.pub/2021/gnn-intro/)
-  - [Understanding Convolutions on Graphs](https://distill.pub/2021/understanding-gnns/)
+    - [A Gentle Introduction to Graph Neural Networks](https://distill.pub/2021/gnn-intro/)
+    - [Understanding Convolutions on Graphs](https://distill.pub/2021/understanding-gnns/)
+  - *Github* [Awesome-GNN-Research](https://github.com/XunKaiLi/Awesome-GNN-Research)
   - *Github* [Awesome-Graph-GNN-Recommendation](https://github.com/huweibo/Awesome-Graph-GNN-Recommendation)
-  - [Heterogeneous Graph Neural Network](https://dl.acm.org/doi/pdf/10.1145/3292500.3330961) 2019 SIGKDD
-  - [异构图神经网络入门笔记(1)：从R-GCN到HetG] <https://zhuanlan.zhihu.com/p/395221075>
-  - [异构图神经网络入门笔记(2)：CompGCN] <https://zhuanlan.zhihu.com/p/400137386>
-  - [GNN based Recommender Systems](https://github.com/tsinghua-fib-lab/GNN-Recommender-Systems)
+  - *Github* [GNN based Recommender Systems](https://github.com/tsinghua-fib-lab/GNN-Recommender-Systems)
   - [图神经网络实战专栏目录](https://zhuanlan.zhihu.com/p/419827839)
+- Code
   - [GraphGallery：几行代码玩转图神经网络](https://zhuanlan.zhihu.com/p/419511954 "中山大学图学习团队开发的图神经网络基准模型库GraphGallery")
   - [支持异构图、集成GraphGym，超好用的图神经网络库PyG更新2.0版本](https://zhuanlan.zhihu.com/p/410246261)
   - [图神经网络之神器——PyTorch Geometric 上手 & 实战](https://zhuanlan.zhihu.com/p/94491664)
-  - [图的鲁棒性优质论文推荐](https://zhuanlan.zhihu.com/p/427216281)
-  - *Github* [Awesome-GNN-Research](https://github.com/XunKaiLi/Awesome-GNN-Research)
-
+- Trustworthy GNN
+  - Robustness
+    - [图的鲁棒性优质论文推荐](https://zhuanlan.zhihu.com/p/427216281) 
+    - [NIPS'20 | 用信息瓶颈增强图模型的鲁棒性](https://zhuanlan.zhihu.com/p/401587745)
+  - Privacy
+  - Interpretability & Explainability
+  - [ICML 2021|基于子图结构的GNN解释模型](https://zhuanlan.zhihu.com/p/377245180)
+  - [[万字长文]图神经网络的解释性问题综述](https://zhuanlan.zhihu.com/p/363075193)
+  - [KDD'21 | 如何评估图网络的解释性模型？](https://zhuanlan.zhihu.com/p/418280505)
+  - Others
+    - [[CaGCN] Be Confident! Towards Trustworthy Graph Neural Networks via Confidence Calibration](https://arxiv.org/abs/2109.14285)
+      - [[北邮 GAMMA Lab 公众号] NeurIPS 2021| 基于置信度校正可信图神经网络](https://mp.weixin.qq.com/s/cWgbKcxqTpULDdjW9BXCyA)
+      - *Github Code* [CaGCN](https://github.com/BUPT-GAMMA/CaGCN)
+    - [图神经网络最新研究进展与应用：「扩展性」、「鲁棒性」、「表达能力」](https://mp.weixin.qq.com/s?__biz=Mzg5MjY0NTQ1MQ==&mid=2247484431&idx=1&sn=b3f7caa7bae00781983a1143b2e7b30e&chksm=c03bbd2bf74c343dc2a4d6f9aaa4dc88bd6e15aa15a35bd27014f625d897339b1fa20509496b&token=1539325454&lang=zh_CN#rd)
+- Heterogeneous GNN
+  - [Graph Neural Networks Foundations, Frontiers, and Applications](https://graph-neural-networks.github.io/)
+    - [Chapter 16 Heterogeneous Graph Neural Networks](https://graph-neural-networks.github.io/static/file/chapter16.pdf)
+  - [2019 SIGKDD | Heterogeneous Graph Neural Network](https://dl.acm.org/doi/pdf/10.1145/3292500.3330961) 
+  - [DGL更新报告：异构图神经网络](https://www.jiqizhixin.com/articles/2019-10-14-5)
+  - [异构图神经网络入门笔记(1)：从R-GCN到HetG](<https://zhuanlan.zhihu.com/p/395221075>)
+  - [异构图神经网络入门笔记(2)：CompGCN](<https://zhuanlan.zhihu.com/p/400137386>)
+  - [异质图神经网络最新进展](https://zhuanlan.zhihu.com/p/418280826)
+  
 ## Federated Recommendation Systems
 
 - [Federated Recommendation Systems](https://link.springer.com/chapter/10.1007/978-3-030-63076-8_16)

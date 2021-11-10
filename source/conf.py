@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'FL'
+project = 'Federated Graph Learning'
 copyright = '2021, Hongyu'
 author = 'Hongyu'
 

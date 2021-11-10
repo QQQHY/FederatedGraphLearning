@@ -1,1 +1,1 @@
-# FederatedGraphLearning
+# Federated Graph Learning

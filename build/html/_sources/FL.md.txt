@@ -31,8 +31,10 @@
   - [图神经网络之神器——PyTorch Geometric 上手 & 实战](https://zhuanlan.zhihu.com/p/94491664)
 - Trustworthy GNN
   - Robustness
-    - [图的鲁棒性优质论文推荐](https://zhuanlan.zhihu.com/p/427216281) 
+    - [图的鲁棒性优质论文推荐](https://zhuanlan.zhihu.com/p/427216281)
     - [NIPS'20 | 用信息瓶颈增强图模型的鲁棒性](https://zhuanlan.zhihu.com/p/401587745)
+    - [Graph Structure Learning for Robust Graph Neural Networks](https://arxiv.org/abs/2005.10203)
+      - [《Graph Structure Learning for Robust Graph Neural Networks》的阅读笔记](https://zhuanlan.zhihu.com/p/354937693)
   - Privacy
   - Interpretability & Explainability
   - [ICML 2021|基于子图结构的GNN解释模型](https://zhuanlan.zhihu.com/p/377245180)
@@ -46,7 +48,7 @@
 - Heterogeneous GNN
   - [Graph Neural Networks Foundations, Frontiers, and Applications](https://graph-neural-networks.github.io/)
     - [Chapter 16 Heterogeneous Graph Neural Networks](https://graph-neural-networks.github.io/static/file/chapter16.pdf)
-  - [2019 SIGKDD | Heterogeneous Graph Neural Network](https://dl.acm.org/doi/pdf/10.1145/3292500.3330961) 
+  - [2019 SIGKDD | Heterogeneous Graph Neural Network](https://dl.acm.org/doi/pdf/10.1145/3292500.3330961)
   - [DGL更新报告：异构图神经网络](https://www.jiqizhixin.com/articles/2019-10-14-5)
   - [异构图神经网络入门笔记(1)：从R-GCN到HetG](<https://zhuanlan.zhihu.com/p/395221075>)
   - [异构图神经网络入门笔记(2)：CompGCN](<https://zhuanlan.zhihu.com/p/400137386>)

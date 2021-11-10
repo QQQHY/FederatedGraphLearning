@@ -32,7 +32,7 @@ release = '0.01'
 # ones.
 extensions = [
     'recommonmark',
-    'sphinx-markdown-tables'
+    #'sphinx-markdown-tables'
 ]
 
 # Add any paths that contain templates here, relative to this directory.

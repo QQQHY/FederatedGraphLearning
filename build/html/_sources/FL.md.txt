@@ -1,4 +1,4 @@
-# Federated Graph Learning
+# Federated Graph Learning Resources
 
 ## Federated Learning
 
@@ -21,6 +21,7 @@
   - [李沐：零基础多图详解图神经网络（GNN/GCN）【论文精读】](https://www.bilibili.com/video/BV1iT4y1d7zP)
     - [A Gentle Introduction to Graph Neural Networks](https://distill.pub/2021/gnn-intro/)
     - [Understanding Convolutions on Graphs](https://distill.pub/2021/understanding-gnns/)
+    - [如何理解 Graph Convolutional Network（GCN）？ - 陀飞轮的回答 - 知乎](https://www.zhihu.com/question/54504471/answer/2197371271)
   - *Github* [Awesome-GNN-Research](https://github.com/XunKaiLi/Awesome-GNN-Research)
   - *Github* [Awesome-Graph-GNN-Recommendation](https://github.com/huweibo/Awesome-Graph-GNN-Recommendation)
   - *Github* [GNN based Recommender Systems](https://github.com/tsinghua-fib-lab/GNN-Recommender-Systems)

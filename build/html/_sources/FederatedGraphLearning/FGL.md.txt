@@ -1,4 +1,4 @@
-# Federated Graph Learning
+# Federated Graph Learning Paper List
 
 Generally sorted by category and date.
 

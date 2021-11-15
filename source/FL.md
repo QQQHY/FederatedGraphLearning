@@ -6,6 +6,7 @@
   - [Federated Learning：Challenges, Methods, and Future Directions](https://arxiv.org/pdf/1908.07873)
   - [Federated Machine Learning Concept and Applications](https://arxiv.org/pdf/1902.04885)
   - [Federated Learning in Mobile Edge Networks: A Comprehensive Survey](https://arxiv.org/pdf/1909.11875)
+<!-- Federated Learning with Diversified Preference for Humor Recognition -->
 
 ## FL & GNN
 
@@ -54,7 +55,16 @@
   - [异构图神经网络入门笔记(1)：从R-GCN到HetG](<https://zhuanlan.zhihu.com/p/395221075>)
   - [异构图神经网络入门笔记(2)：CompGCN](<https://zhuanlan.zhihu.com/p/400137386>)
   - [异质图神经网络最新进展](https://zhuanlan.zhihu.com/p/418280826)
-  
+
+## Knowledge
+
+- [Federated Knowledge Distillation](https://arxiv.org/abs/2011.02367)
+- [联邦学习里面的知识蒸馏技术 （一）](https://zhuanlan.zhihu.com/p/305988547)
+- [联邦学习与知识联邦](https://zhuanlan.zhihu.com/p/383617540)
+- [中国联邦学习「五个大型项目」——学习方向参考](https://zhuanlan.zhihu.com/p/383550479)
+- [Enhancing Recommendation Diversity using Determinantal
+Point Processes on Knowledge Graphs](https://dl.acm.org/doi/10.1145/3397271.3401213)
+
 ## Federated Recommendation Systems
 
 - [Federated Recommendation Systems](https://link.springer.com/chapter/10.1007/978-3-030-63076-8_16)

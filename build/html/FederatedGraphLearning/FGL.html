@@ -83,6 +83,16 @@
 <section id="fl-gnn">
 <h2>FL &amp; GNN<a class="headerlink" href="#fl-gnn" title="永久链接至标题"></a></h2>
 <ul class="simple">
+<li><p><strong>SGNN: A Graph Neural Network Based Federated Learning Approach by Hiding Structure</strong></p>
+<ul>
+<li><p>Author: Guangxu Mei ; Ziyu Guo; Shijun Liu; Li Pan. (SDU)</p></li>
+<li><p>Publication: Big Data 2019</p></li>
+<li><p>Date: 24 February 2020</p></li>
+<li><p>Link: <a class="reference external" href="https://ieeexplore.ieee.org/abstract/document/9005983/">https://ieeexplore.ieee.org/abstract/document/9005983/</a></p></li>
+<li><p>Abstract: Networks are general tools for modeling numerous information with features and complex relations. Network Embedding aims to learn low-dimension representations for vertexes in the network with rich information including content information and structural information. In recent years, many models based on neural network have been proposed to map the network representations into embedding space whose dimension is much lower than that in original space. However, most of existing methods have the following limitations: 1) they are based on content of nodes in network, failing to measure the structure similarity of nodes; 2) they cannot do well in protecting the privacy of users including the original content information and the structural information. In this paper, we propose a similarity-based graph neural network model, SGNN, which captures the structure information of nodes precisely in node classification tasks. It also takes advantage of the thought of federated learning to hide the original information from different data sources to protect users’ privacy. We use deep graph neural network with convolutional layers and dense layers to classify the nodes based on their structures and features. The node classification experiment results on public data sets including Aminer coauthor network, Brazil and Europe flight networks indicate that our proposed model outperforms state-of-the-art models with a higher accuracy.</p></li>
+<li></li>
+</ul>
+</li>
 <li><p><strong>Vertically Federated Graph Neural Network for Privacy-Preserving Node Classification</strong></p>
 <ul>
 <li><p>Author: Jun Zhou, Chaochao Chen, Longfei Zheng, Huiwen Wu, Jia Wu, Xiaolin Zheng, Bingzhe Wu, Ziqi Liu, Li Wang</p></li>
@@ -92,6 +102,21 @@
 <li><p>Abstract: Recently, Graph Neural Network (GNN) has achieved remarkable progresses in various real-world tasks on graph data, consisting of node features and the adjacent information between different nodes. High-performance GNN models always depend on both rich features and complete edge information in graph. However, such information could possibly be isolated by different data holders in practice, which is the so-called data isolation problem. To solve this problem, in this paper, we propose VFGNN, a federated GNN learning paradigm for privacy-preserving node classification task under data vertically partitioned setting, which can be generalized to existing GNN models. Specifically, we split the computation graph into two parts. We leave the private data (i.e., features, edges, and labels) related computations on data holders, and delegate the rest of computations to a semi-honest server. We also propose to apply differential privacy to prevent potential information leakage from the server. We conduct experiments on three benchmarks and the results demonstrate the effectiveness of VFGNN.</p></li>
 <li><p>Used Name: Privacy-Preserving Graph Neural Network for Node Classification</p></li>
 <li><p>Note: 数据孤岛问题阻碍了图神经网络利用丰富的节点特征和图信息。 VFGNN：<strong>纵向</strong>联邦图学习范式。将计算分为客户端的隐私数据计算和服务器端计算，并利用差分隐私防止数据泄密。</p></li>
+<li><p><a class="reference external" href="https://zhuanlan.zhihu.com/p/428406637">论文笔记：Arxiv 2021 Vertically Federated Graph Neural Network for Privacy-Preserving Node Classification</a></p></li>
+</ul>
+</li>
+<li><p><strong>Distributed Training of Graph Convolutional Networks</strong></p>
+<ul>
+<li><p>Author: Simone Scardapane, Indro Spinelli, Paolo Di Lorenzo</p></li>
+<li><p>Publication: TSIPN 2021</p></li>
+<li><p>Date: 13 Jul 2020</p></li>
+<li><p>Link: <a class="reference external" href="https://arxiv.org/abs/2007.06281">https://arxiv.org/abs/2007.06281</a></p></li>
+<li><p>Abstract: The aim of this work is to develop a fully-distributed algorithmic framework for training graph convolutional networks (GCNs). The proposed method is able to exploit the meaningful relational structure of the input data, which are collected by a set of agents that communicate over a sparse network topology. After formulating the centralized GCN training problem, we first show how to make inference in a distributed scenario where the underlying data graph is split among different agents. Then, we propose a distributed gradient descent procedure to solve the GCN training problem. The resulting model distributes computation along three lines: during inference, during back-propagation, and during optimization. Convergence to stationary solutions of the GCN training problem is also established under mild conditions. Finally, we propose an optimization criterion to design the communication topology between agents in order to match with the graph describing data relationships. A wide set of numerical results validate our proposal. To the best of our knowledge, this is the first work combining graph convolutional neural networks with distributed optimization.</p></li>
+<li><p>Useful Link</p>
+<ul>
+<li><p><a class="reference external" href="https://zhuanlan.zhihu.com/p/433329525">论文笔记：TSIPN 2021 Distributed Training of Graph Convolutional Networks</a></p></li>
+</ul>
+</li>
 </ul>
 </li>
 <li><p><strong>Federated Dynamic GNN with Secure Aggregation.</strong></p>
@@ -101,17 +126,22 @@
 <li><p>Date: 15 Sep 2020</p></li>
 <li><p>Link: <a class="reference external" href="https://arxiv.org/pdf/2009.07351">https://arxiv.org/pdf/2009.07351</a></p></li>
 <li><p>Abstract: Given video data from multiple personal devices or street cameras, can we exploit the structural and dynamic information to learn dynamic representation of objects for applications such as distributed surveillance, without storing data at a central server that leads to a violation of user privacy? In this work, we introduce Federated Dynamic Graph Neural Network (Feddy), a distributed and secured framework to learn the object representations from multi-user graph sequences: i) It aggregates structural information from nearby objects in the current graph as well as dynamic information from those in the previous graph. It uses a self-supervised loss of predicting the trajectories of objects. ii) It is trained in a federated learning manner. The centrally located server sends the model to user devices. Local models on the respective user devices learn and periodically send their learning to the central server without ever exposing the user’s data to server. iii) Studies showed that the aggregated parameters could be inspected though decrypted when broadcast to clients for model synchronizing, after the server performed a weighted average. We design an appropriate aggregation mechanism of secure aggregation primitives that can protect the security and privacy in federated learning with scalability. Experiments on four video camera datasets (in four different scenes) as well as simulation demonstrate that Feddy achieves great effectiveness and security.</p></li>
-<li><p>Note：学习动态表示。Feddy</p></li>
+<li><p>Note：Feddy：学习动态表示，利用自监督loss进行轨迹预测。</p></li>
 </ul>
 </li>
 <li><p><strong>ASFGNN: Automated Separated-Federated Graph Neural Network</strong></p>
 <ul>
 <li><p>Author: Longfei Zheng, Jun Zhou, Chaochao Chen, Bingzhe Wu, Li Wang, Benyu Zhang</p></li>
-<li><p>Publication: Preprint</p></li>
+<li><p>Publication: PPNA 2021</p></li>
 <li><p>Date: 6 Nov 2020</p></li>
 <li><p>Link: <a class="reference external" href="https://arxiv.org/pdf/2011.03248">https://arxiv.org/pdf/2011.03248</a></p></li>
 <li><p>Abstract: Graph Neural Networks (GNNs) have achieved remarkable performance by taking advantage of graph data. The success of GNN models always depends on rich features and adjacent relationships. However, in practice, such data are usually isolated by different data owners (clients) and thus are likely to be Non-Independent and Identically Distributed (Non-IID). Meanwhile, considering the limited network status of data owners, hyper-parameters optimization for collaborative learning approaches is time-consuming in data isolation scenarios. To address these problems, we propose an Automated Separated-Federated Graph Neural Network (ASFGNN) learning paradigm. ASFGNN consists of two main components, i.e., the training of GNN and the tuning of hyper-parameters. Specifically, to solve the data Non-IID problem, we first propose a separated-federated GNN learning model, which decouples the training of GNN into two parts: the message passing part that is done by clients separately, and the loss computing part that is learnt by clients federally. To handle the time-consuming parameter tuning problem, we leverage Bayesian optimization technique to automatically tune the hyper-parameters of all the clients. We conduct experiments on benchmark datasets and the results demonstrate that ASFGNN significantly outperforms the naive federated GNN, in terms of both accuracy and parameter-tuning efficiency.</p></li>
 <li><p>Note: 本文关注联邦图学习的两个问题：数据Non-IID和超参数调优耗时。提出ASFGNN：对于Non-IID问题，采用解耦的GNN训练，本地进行信息传递，联邦进行loss计算。对于超参数调优，采用贝叶斯优化。</p></li>
+<li><p>Useful Link</p>
+<ul>
+<li><p><a class="reference external" href="https://zhuanlan.zhihu.com/p/431283541">论文笔记：PPNA 2021 ASFGNN: Automated Separated-Federated Graph Neural Network</a></p></li>
+</ul>
+</li>
 </ul>
 </li>
 <li><p><strong>GraphFL: A Federated Learning Framework for Semi-Supervised Node Classification on Graphs</strong></p>
@@ -121,6 +151,12 @@
 <li><p>Date: 8 Dec 2020</p></li>
 <li><p>Link: <a class="reference external" href="https://arxiv.org/pdf/2012.04187">https://arxiv.org/pdf/2012.04187</a></p></li>
 <li><p>Abstract: Graph-based semi-supervised node classification (GraphSSC) has wide applications, ranging from networking and security to data mining and machine learning, etc. However, existing centralized GraphSSC methods are impractical to solve many real-world graph-based problems, as collecting the entire graph and labeling a reasonable number of labels is time-consuming and costly, and data privacy may be also violated. Federated learning (FL) is an emerging learning paradigm that enables collaborative learning among multiple clients, which can mitigate the issue of label scarcity and protect data privacy as well. Therefore, performing GraphSSC under the FL setting is a promising solution to solve real-world graph-based problems. However, existing FL methods 1) perform poorly when data across clients are non-IID, 2) cannot handle data with new label domains, and 3) cannot leverage unlabeled data, while all these issues naturally happen in real-world graph-based problems. To address the above issues, we propose the first FL framework, namely GraphFL, for semi-supervised node classification on graphs. Our framework is motivated by meta-learning methods. Specifically, we propose two GraphFL methods to respectively address the non-IID issue in graph data and handle the tasks with new label domains. Furthermore, we design a self-training method to leverage unlabeled graph data. We adopt representative graph neural networks as GraphSSC methods and evaluate GraphFL on multiple graph datasets. Experimental results demonstrate that GraphFL significantly outperforms the compared FL baseline and GraphFL with self-training can obtain better performance.</p></li>
+<li><p>Note：三个问题：Non-IID；new label domains； unlabeled data。GraphFL：motivated by meta-learning，two GraphFL methods to address Non-IID and new label domains；self-training to leverage unlabeled data</p></li>
+<li><p>Useful Link</p>
+<ul>
+<li><p><a class="reference external" href="https://zhuanlan.zhihu.com/p/431479904">论文笔记：Arxiv 2020 GraphFL: A Federated Learning Framework for Semi-Supervised Node Classification</a></p></li>
+</ul>
+</li>
 </ul>
 </li>
 <li><p><strong>FedGNN: Federated Graph Neural Network for Privacy-Preserving Recommendation</strong></p>
@@ -130,6 +166,22 @@
 <li><p>Date: 9 Feb 2021</p></li>
 <li><p>Link: <a class="reference external" href="https://arxiv.org/pdf/2102.04925">https://arxiv.org/pdf/2102.04925</a></p></li>
 <li><p>Abstract: Graphs have been widely used in data mining and machine learning due to their unique representation of real-world objects and their interactions. As graphs are getting bigger and bigger nowadays, it is common to see their subgraphs separately collected and stored in multiple local systems. Therefore, it is natural to consider the subgraph federated learning setting, where each local system holds a small subgraph that may be biased from the distribution of the whole graph. Hence, the subgraph federated learning aims to collaboratively train a powerful and generalizable graph mining model without directly sharing their graph data. In this work, towards the novel yet realistic setting of subgraph federated learning, we propose two major techniques: (1) FedSage, which trains a GraphSage model based on FedAvg to integrate node features, link structures, and task labels on multiple local subgraphs; (2) FedSage+, which trains a missing neighbor generator along FedSage to deal with missing links across local subgraphs. Empirical results on four real-world graph datasets with synthesized subgraph federated learning settings demonstrate the effectiveness and efficiency of our proposed techniques. At the same time, consistent theoretical implications are made towards their generalization ability on the global graphs.</p></li>
+<li><p><a class="reference external" href="https://zhuanlan.zhihu.com/p/428783383">论文笔记：ICML 2021 FedGNN: Federated Graph Neural Network for Privacy-Preserving Recommendation</a></p></li>
+</ul>
+</li>
+<li><p><strong>Personalized Federated Learning using Hypernetworks</strong></p>
+<ul>
+<li><p>Author: Aviv Shamsian, Aviv Navon, Ethan Fetaya, Gal Chechik</p></li>
+<li><p>Publication: ICML 2021</p></li>
+<li><p>Date: 8 Mar 2021</p></li>
+<li><p>Link: <a class="reference external" href="https://arxiv.org/abs/2103.04628">https://arxiv.org/abs/2103.04628</a></p></li>
+<li><p>Abstract: Personalized federated learning is tasked with training machine learning models for multiple clients, each with its own data distribution. The goal is to train personalized models in a collaborative way while accounting for data disparities across clients and reducing communication costs. We propose a novel approach to this problem using hypernetworks, termed pFedHN for personalized Federated HyperNetworks. In this approach, a central hypernetwork model is trained to generate a set of models, one model for each client. This architecture provides effective parameter sharing across clients, while maintaining the capacity to generate unique and diverse personal models. Furthermore, since hypernetwork parameters are never transmitted, this approach decouples the communication cost from the trainable model size. We test pFedHN empirically in several personalized federated learning challenges and find that it outperforms previous methods. Finally, since hypernetworks share information across clients we show that pFedHN can generalize better to new clients whose distributions differ from any client observed during training.</p></li>
+<li><p><a class="reference external" href="https://github.com/AvivSham/pFedHN">Official Code</a></p></li>
+<li><p>Useful Link</p>
+<ul>
+<li><p><a class="reference external" href="https://zhuanlan.zhihu.com/p/387491634">「ICML2021」| 联邦学习系列 — Personalized Federated Learning using Hypernetworks</a></p></li>
+</ul>
+</li>
 </ul>
 </li>
 <li><p><strong>FL-AGCNS: Federated Learning Framework for Automatic Graph Convolutional Network Search</strong></p>
@@ -149,6 +201,15 @@
 <li><p>Link: <a class="reference external" href="https://arxiv.org/pdf/2104.07145">https://arxiv.org/pdf/2104.07145</a></p></li>
 <li><p>Abstract: Graph Neural Network (GNN) research is rapidly growing thanks to the capacity of GNNs in learning distributed representations from graph-structured data. However, centralizing a massive amount of real-world graph data for GNN training is prohibitive due to privacy concerns, regulation restrictions, and commercial competitions. Federated learning (FL), a trending distributed learning paradigm, provides possibilities to solve this challenge while preserving data privacy. Despite recent advances in vision and language domains, there is no suitable platform for the FL of GNNs. To this end, we introduce FedGraphNN, an open FL benchmark system that can facilitate research on federated GNNs. FedGraphNN is built on a unified formulation of graph FL and contains a wide range of datasets from different domains, popular GNN models, and FL algorithms, with secure and efficient system support. Particularly for the datasets, we collect, preprocess, and partition 36 datasets from 7 domains, including both publicly available ones and specifically obtained ones such as hERG and Tencent. Our empirical analysis showcases the utility of our benchmark system, while exposing significant challenges in graph FL: federated GNNs perform worse in most datasets with a non-IID split than centralized GNNs; the GNN model that attains the best result in the centralized setting may not maintain its advantage in the FL setting. These results imply that more research efforts are needed to unravel the mystery behind federated GNNs. Moreover, our system performance analysis demonstrates that the FedGraphNN system is computationally efficient and secure to large-scale graphs datasets. We maintain the source code at this https URL.</p></li>
 <li><p><em>Github</em> <a class="reference external" href="https://github.com/FedML-AI/FedGraphNN">FedGraphNN</a></p></li>
+<li><p><a class="reference external" href="https://zhuanlan.zhihu.com/p/429220636">论文笔记：ICLR 2021 FedGraphNN: A Federated Learning Benchmark System for Graph Neural Networks</a></p></li>
+<li><p>Useful Link</p>
+<ul>
+<li><p>[<a class="reference external" href="https://studio.slideslive.com/web_recorder/share/35243?s=c6631fed-5f29-42ef-8cf0-6e2b8c0b2359">ICLR 2021 Workshop Video Presentation</a>]</p></li>
+<li><p>[<a class="reference external" href="https://gnnsys.github.io/papers/GNNSys21_paper_3.pdf">MLSys 2021 Workshop Camera Ready Version</a>]</p></li>
+<li><p>[<a class="reference external" href="https://gnnsys.github.io/posters/GNNSys21_poster_3.pdf">MLSys 2021 Poster</a>]</p></li>
+<li><p>[<a class="reference external" href="https://github.com/FedML-AI/FedGraphNN">Code</a>]</p></li>
+</ul>
+</li>
 </ul>
 </li>
 <li><p><strong>Cluster-driven Graph Federated Learning over Multiple Domains</strong></p>
@@ -167,6 +228,7 @@
 <li><p>Date: 7 May 2021</p></li>
 <li><p>Link: <a class="reference external" href="https://arxiv.org/pdf/2105.03170">https://arxiv.org/pdf/2105.03170</a></p></li>
 <li><p>Abstract: Graph data are ubiquitous in the real world. Graph learning (GL) tries to mine and analyze graph data so that valuable information can be discovered. Existing GL methods are designed for centralized scenarios. However, in practical scenarios, graph data are usually distributed in different organizations, i.e., the curse of isolated data islands. To address this problem, we incorporate federated learning into GL and propose a general Federated Graph Learning framework FedGL, which is capable of obtaining a high-quality global graph model while protecting data privacy by discovering the global self-supervision information during the federated training. Concretely, we propose to upload the prediction results and node embeddings to the server for discovering the global pseudo label and global pseudo graph, which are distributed to each client to enrich the training labels and complement the graph structure respectively, thereby improving the quality of each local model. Moreover, the global self-supervision enables the information of each client to flow and share in a privacy-preserving manner, thus alleviating the heterogeneity and utilizing the complementarity of graph data among different clients. Finally, experimental results show that FedGL significantly outperforms baselines on four widely used graph datasets.</p></li>
+<li><p><a class="reference external" href="https://zhuanlan.zhihu.com/p/431049080">论文笔记：Arxiv 2021 FedGL: Federated Graph Learning Framework with Global Self-Supervision</a></p></li>
 </ul>
 </li>
 <li><p><strong>Federated Graph Learning – A Position Paper</strong></p>
@@ -175,16 +237,26 @@
 <li><p>Publication: Preprint</p></li>
 <li><p>Date: 24 May 2021</p></li>
 <li><p>Link: <a class="reference external" href="https://arxiv.org/pdf/2105.11099">https://arxiv.org/pdf/2105.11099</a></p></li>
-<li><p>Abstract:</p></li>
+<li><p>Abstract: Graph neural networks (GNN) have been successful in many fields, and derived various researches and applications in real industries. However, in some privacy sensitive scenarios (like finance, healthcare), training a GNN model centrally faces challenges due to the distributed data silos. Federated learning (FL) is a an emerging technique that can collaboratively train a shared model while keeping the data decentralized, which is a rational solution for distributed GNN training. We term it as federated graph learning (FGL). Although FGL has received increasing attention recently, the definition and challenges of FGL is still up in the air. In this position paper, we present a categorization to clarify it. Considering how graph data are distributed among clients, we propose four types of FGL: inter-graph FL, intra-graph FL and graph-structured FL, where intra-graph is further divided into horizontal and vertical FGL. For each type of FGL, we make a detailed discussion about the formulation and applications, and propose some potential challenges.</p></li>
+<li><p>Useful Link</p>
+<ul>
+<li><p><a class="reference external" href="https://zhuanlan.zhihu.com/p/431934452">论文笔记：Arxiv 2021 Federated Graph Learning - A Position Paper</a></p></li>
+</ul>
+</li>
 </ul>
 </li>
 <li><p><strong>SpreadGNN: Serverless Multi-task Federated Learning for Graph Neural Networks</strong></p>
 <ul>
 <li><p>Author: Chaoyang He, Emir Ceyani, Keshav Balasubramanian, Murali Annavaram, Salman Avestimehr</p></li>
-<li><p>Publication: Preprint</p></li>
+<li><p>Publication: ICML 2021</p></li>
 <li><p>Date: 4 Jun 2021</p></li>
 <li><p>Link: <a class="reference external" href="https://arxiv.org/pdf/2106.02743">https://arxiv.org/pdf/2106.02743</a></p></li>
 <li><p>Abstract: Graph Neural Networks (GNNs) are the first choice methods for graph machine learning problems thanks to their ability to learn state-of-the-art level representations from graph-structured data. However, centralizing a massive amount of real-world graph data for GNN training is prohibitive due to user-side privacy concerns, regulation restrictions, and commercial competition. Federated Learning is the de-facto standard for collaborative training of machine learning models over many distributed edge devices without the need for centralization. Nevertheless, training graph neural networks in a federated setting is vaguely defined and brings statistical and systems challenges. This work proposes SpreadGNN, a novel multi-task federated training framework capable of operating in the presence of partial labels and absence of a central server for the first time in the literature. SpreadGNN extends federated multi-task learning to realistic serverless settings for GNNs, and utilizes a novel optimization algorithm with a convergence guarantee, Decentralized Periodic Averaging SGD (DPA-SGD), to solve decentralized multi-task learning problems. We empirically demonstrate the efficacy of our framework on a variety of non-I.I.D. distributed graph-level molecular property prediction datasets with partial labels. Our results show that SpreadGNN outperforms GNN models trained over a central server-dependent federated learning system, even in constrained topologies. The source code is publicly available at <a class="reference external" href="https://github.com/FedML-AI/SpreadGNN">this https URL</a></p></li>
+<li><p>Useful link</p>
+<ul>
+<li><p><a class="reference external" href="https://zhuanlan.zhihu.com/p/429720860">论文笔记：ICML 2021 SpreadGNN: Serverless Multi task Federated Learning for Graph Neural Networks</a></p></li>
+</ul>
+</li>
 </ul>
 </li>
 <li><p><strong>Cross-Node Federated Graph Neural Network for Spatio-Temporal Data Modeling</strong></p>
@@ -208,6 +280,11 @@
 <li><p>GraphSage</p></li>
 </ul>
 </li>
+<li><p>Useful Link</p>
+<ul>
+<li><p><a class="reference external" href="https://zhuanlan.zhihu.com/p/431900470">论文笔记：Arxiv 2021 A Vertical Federated Learning Framework for Graph Convolutional Network</a></p></li>
+</ul>
+</li>
 </ul>
 </li>
 <li><p><strong>Federated Graph Classification over Non-IID Graphs</strong></p>
@@ -217,6 +294,11 @@
 <li><p>Date: 25 Jun 2021</p></li>
 <li><p>Link: <a class="reference external" href="https://arxiv.org/abs/2106.13423">https://arxiv.org/abs/2106.13423</a></p></li>
 <li><p>Abstract: Federated learning has emerged as an important paradigm for training machine learning models in different domains. For graph-level tasks such as graph classification, graphs can also be regarded as a special type of data samples, which can be collected and stored in separate local systems. Similar to other domains, multiple local systems, each holding a small set of graphs, may benefit from collaboratively training a powerful graph mining model, such as the popular graph neural networks (GNNs). To provide more motivation towards such endeavors, we analyze real-world graphs from different domains to confirm that they indeed share certain graph properties that are statistically significant compared with random graphs. However, we also find that different sets of graphs, even from the same domain or same dataset, are non-IID regarding both graph structures and node features. To handle this, we propose a graph clustered federated learning (GCFL) framework that dynamically finds clusters of local systems based on the gradients of GNNs, and theoretically justify that such clusters can reduce the structure and feature heterogeneity among graphs owned by the local systems. Moreover, we observe the gradients of GNNs to be rather fluctuating in GCFL which impedes high-quality clustering, and design a gradient sequence-based clustering mechanism based on dynamic time warping (GCFL+). Extensive experimental results and in-depth analysis demonstrate the effectiveness of our proposed frameworks.</p></li>
+<li><p>Useful Link</p>
+<ul>
+<li><p><a class="reference external" href="https://zhuanlan.zhihu.com/p/430623053">论文笔记：NIPS 2021 Federated Graph Classification over Non-IID Graphs (GCFL)</a></p></li>
+</ul>
+</li>
 </ul>
 </li>
 <li><p><strong>Subgraph Federated Learning with Missing Neighbor Generation</strong></p>
@@ -234,6 +316,26 @@ Graphs have been widely used in data mining and machine learning due to their un
 <li><p><a class="reference external" href="https://docs.google.com/presentation/d/1tC69KdqVy2yEOD6Ev-hBd0LiloJPvUemqAl5hFIvz5s/edit?usp=sharing">Meeting_20211028_FedSage</a></p></li>
 </ul>
 </li>
+<li><p>Useful Link</p>
+<ul>
+<li><p><a class="reference external" href="https://zhuanlan.zhihu.com/p/430789355">论文笔记：NIPS 2021 Subgraph Federated Learning with Missing Neighbor Generation</a></p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>Decentralized Federated Graph Neural Networks</strong></p>
+<ul>
+<li><p>Author: Yang Pei, Renxin Mao, Yang Liu, Chaoran Chen, Shifeng Xu, Feng Qiang and Peng Zhang.</p></li>
+<li><p>Publication: FTL-IJCAI Workshop 2021</p></li>
+<li><p>Date:  21 Aug 2021</p></li>
+<li><p>Link: <a class="reference external" href="https://federated-learning.org/fl-ijcai-2021/FTL-IJCAI21_paper_20.pdf">https://federated-learning.org/fl-ijcai-2021/FTL-IJCAI21_paper_20.pdf</a></p></li>
+<li><p>Abstract: Due to the increasing importance of user-side privacy, federated graph neural networks are proposed recently as a reliable solution for privacypreserving data analysis by enabling the joint training of a graph neural network from graphstructured data located at different clients. However, existing federated graph neural networks are based on a centralized server to orchestrate the training process, which is unacceptable in many real-world applications such as building financial risk control models across competitive banks. In this paper, we propose a new Decentralized Federated Graph Neural Network (D-FedGNN for short) which allows multiple participants to train a graph neural network model without a centralized server. Specifically, D-FedGNN uses a decentralized parallel stochastic gradient descent algorithm DPSGD to train the graph neural network model in a peer-to-peer network structure. To protect privacy during model aggregation, D-FedGNN introduces the Diffie-Hellman key exchange method to achieve secure model aggregation between clients. Both theoretical and empirical studies show that the proposed D-FedGNN model is capable of achieving competitive results compared with traditional centralized federated graph neural networks in the tasks of classification and regression, as well as significantly reducing time cost of the communication of model parameters.</p></li>
+</ul>
+</li>
+<li><p>Useful Link</p>
+<ul>
+<li><p><a class="reference external" href="https://federated-learning.org/fl-ijcai-2021/P1058--poster.pdf">Poster</a></p></li>
+<li><p><a class="reference external" href="https://zhuanlan.zhihu.com/p/430508567">论文笔记：IJCAI 2021 Decentralized Federated Graph Neural Networks</a></p></li>
 </ul>
 </li>
 <li><p><strong>A Federated Multigraph Integration Approach for Connectional Brain Template Learning</strong></p>

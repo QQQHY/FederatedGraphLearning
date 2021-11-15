@@ -1,12 +1,17 @@
 # Federated Graph Learning Resources
 
 ## Federated Learning
-
+- [The Federated Learning Portal](https://federated-learning.org/)
+  - [Trustworthy Federated Ubiquitous Learning (TrustFUL) Research Lab](https://trustful.federated-learning.org/)
 - Introduction & Survey
+  - [Communication-Efficient Learning of Deep Networks from Decentralized Data](https://arxiv.org/abs/1602.05629)
   - [Federated Learning：Challenges, Methods, and Future Directions](https://arxiv.org/pdf/1908.07873)
   - [Federated Machine Learning Concept and Applications](https://arxiv.org/pdf/1902.04885)
   - [Federated Learning in Mobile Edge Networks: A Comprehensive Survey](https://arxiv.org/pdf/1909.11875)
+  - [New Frontiers in Federated Learning: Privacy, Fairness, Robustness, Personalization and Data Ownership](https://neurips2021workshopfl.github.io/NFFL-2021/)
 <!-- Federated Learning with Diversified Preference for Humor Recognition -->
+Chaoyang He https://chaoyanghe.com/
+
 
 ## FL & GNN
 
@@ -28,9 +33,13 @@
   - *Github* [GNN based Recommender Systems](https://github.com/tsinghua-fib-lab/GNN-Recommender-Systems)
   - [图神经网络实战专栏目录](https://zhuanlan.zhihu.com/p/419827839)
 - Code
+  - [Graph library -- PyG、GraphGallery](https://zhuanlan.zhihu.com/p/420587332)
+  - [Graph library -- DIG、AutoGL、CogDL](https://zhuanlan.zhihu.com/p/422082239)
   - [GraphGallery：几行代码玩转图神经网络](https://zhuanlan.zhihu.com/p/419511954 "中山大学图学习团队开发的图神经网络基准模型库GraphGallery")
   - [支持异构图、集成GraphGym，超好用的图神经网络库PyG更新2.0版本](https://zhuanlan.zhihu.com/p/410246261)
   - [图神经网络之神器——PyTorch Geometric 上手 & 实战](https://zhuanlan.zhihu.com/p/94491664)
+  - [PyTorch Geometric（一）：数据加载](https://zhuanlan.zhihu.com/p/425974734)
+  - [PyTorch Geometric（二）：模型搭建](https://zhuanlan.zhihu.com/p/427083823)
 - Trustworthy GNN
   - Robustness
     - [图的鲁棒性优质论文推荐](https://zhuanlan.zhihu.com/p/427216281)
@@ -38,10 +47,18 @@
     - [Graph Structure Learning for Robust Graph Neural Networks](https://arxiv.org/abs/2005.10203)
       - [《Graph Structure Learning for Robust Graph Neural Networks》的阅读笔记](https://zhuanlan.zhihu.com/p/354937693)
   - Privacy
+    - [基于 GNN 的隐私计算（差分隐私）Review（一）](https://zhuanlan.zhihu.com/p/426267637)
+    - [基于 GNN 的隐私计算（联邦学习）Review（二）](https://zhuanlan.zhihu.com/p/432071253)
+    - [基于 GNN 的隐私计算（联邦学习）Review（三）](https://zhuanlan.zhihu.com/p/432126858)
+    - [论文笔记：Arxiv 2021 Releasing Graph Neural Networks with Differential Privacy Guarantees](https://zhuanlan.zhihu.com/p/424463019)
+    - [论文笔记：Arxiv 2020 When Differential Privacy Meets Graph Neural Networks](https://zhuanlan.zhihu.com/p/423868946)
+    - [论文笔记：CCS 2021 Locally Private Graph Neural Networks](https://zhuanlan.zhihu.com/p/423444455)
+    - [「ICML 2021」联邦学习相关论文导读(待更新)](https://zhuanlan.zhihu.com/p/378557472)
   - Interpretability & Explainability
-  - [ICML 2021|基于子图结构的GNN解释模型](https://zhuanlan.zhihu.com/p/377245180)
-  - [[万字长文]图神经网络的解释性问题综述](https://zhuanlan.zhihu.com/p/363075193)
-  - [KDD'21 | 如何评估图网络的解释性模型？](https://zhuanlan.zhihu.com/p/418280505)
+    - [Awesome Explainable Graph Reasoning](https://github.com/AstraZeneca/awesome-explainable-graph-reasoning)
+    - [ICML 2021|基于子图结构的GNN解释模型](https://zhuanlan.zhihu.com/p/377245180)
+    - [[万字长文]图神经网络的解释性问题综述](https://zhuanlan.zhihu.com/p/363075193)
+    - [KDD'21 | 如何评估图网络的解释性模型？](https://zhuanlan.zhihu.com/p/418280505)
   - Others
     - [[CaGCN] Be Confident! Towards Trustworthy Graph Neural Networks via Confidence Calibration](https://arxiv.org/abs/2109.14285)
       - [[北邮 GAMMA Lab 公众号] NeurIPS 2021| 基于置信度校正可信图神经网络](https://mp.weixin.qq.com/s/cWgbKcxqTpULDdjW9BXCyA)

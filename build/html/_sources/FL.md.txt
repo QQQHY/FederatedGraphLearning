@@ -1,6 +1,7 @@
 # Federated Graph Learning Resources
 
 ## Federated Learning
+
 - [The Federated Learning Portal](https://federated-learning.org/)
   - [Trustworthy Federated Ubiquitous Learning (TrustFUL) Research Lab](https://trustful.federated-learning.org/)
 - Introduction & Survey
@@ -9,9 +10,16 @@
   - [Federated Machine Learning Concept and Applications](https://arxiv.org/pdf/1902.04885)
   - [Federated Learning in Mobile Edge Networks: A Comprehensive Survey](https://arxiv.org/pdf/1909.11875)
   - [New Frontiers in Federated Learning: Privacy, Fairness, Robustness, Personalization and Data Ownership](https://neurips2021workshopfl.github.io/NFFL-2021/)
-<!-- Federated Learning with Diversified Preference for Humor Recognition -->
-Chaoyang He https://chaoyanghe.com/
 
+<!-- 
+[Federated Learning with Diversified Preference for Humor Recognition](https://arxiv.org/abs/2012.01675) 
+[Ensemble Federated Adversarial Training with Non-IID data](https://federated-learning.org/fl-ijcai-2021/FTL-IJCAI21_paper_28.pdf) 
+-->
+  <!-- 
+  - Reseacher
+    - Chaoyang He https://chaoyanghe.com/ 
+    - 
+  -->
 
 ## FL & GNN
 
@@ -72,6 +80,7 @@ Chaoyang He https://chaoyanghe.com/
   - [异构图神经网络入门笔记(1)：从R-GCN到HetG](<https://zhuanlan.zhihu.com/p/395221075>)
   - [异构图神经网络入门笔记(2)：CompGCN](<https://zhuanlan.zhihu.com/p/400137386>)
   - [异质图神经网络最新进展](https://zhuanlan.zhihu.com/p/418280826)
+  - [Jhy1993/Representation-Learning-on-Heterogeneous-Graph](https://github.com/Jhy1993/Representation-Learning-on-Heterogeneous-Graph)
 
 ## Knowledge
 

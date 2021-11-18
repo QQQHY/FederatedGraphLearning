@@ -216,7 +216,7 @@
 <li><p>Link: <a class="reference external" href="https://arxiv.org/abs/2103.04628">https://arxiv.org/abs/2103.04628</a></p></li>
 <li><p>Abstract: Personalized federated learning is tasked with training machine learning models for multiple clients, each with its own data distribution. The goal is to train personalized models in a collaborative way while accounting for data disparities across clients and reducing communication costs. We propose a novel approach to this problem using hypernetworks, termed pFedHN for personalized Federated HyperNetworks. In this approach, a central hypernetwork model is trained to generate a set of models, one model for each client. This architecture provides effective parameter sharing across clients, while maintaining the capacity to generate unique and diverse personal models. Furthermore, since hypernetwork parameters are never transmitted, this approach decouples the communication cost from the trainable model size. We test pFedHN empirically in several personalized federated learning challenges and find that it outperforms previous methods. Finally, since hypernetworks share information across clients we show that pFedHN can generalize better to new clients whose distributions differ from any client observed during training.</p></li>
 <li><p><a class="reference external" href="https://github.com/AvivSham/pFedHN">Official Code</a></p></li>
-<li><p>Note：个性化联邦学习w</p></li>
+<li><p>Note：个性化联邦学习</p></li>
 <li><p>Useful Link</p>
 <ul>
 <li><p><a class="reference external" href="https://zhuanlan.zhihu.com/p/387491634">「ICML2021」| 联邦学习系列 — Personalized Federated Learning using Hypernetworks</a></p></li>
@@ -241,7 +241,7 @@
 <li><p>Link: <a class="reference external" href="https://arxiv.org/pdf/2104.07145">https://arxiv.org/pdf/2104.07145</a></p></li>
 <li><p>Abstract: Graph Neural Network (GNN) research is rapidly growing thanks to the capacity of GNNs in learning distributed representations from graph-structured data. However, centralizing a massive amount of real-world graph data for GNN training is prohibitive due to privacy concerns, regulation restrictions, and commercial competitions. Federated learning (FL), a trending distributed learning paradigm, provides possibilities to solve this challenge while preserving data privacy. Despite recent advances in vision and language domains, there is no suitable platform for the FL of GNNs. To this end, we introduce FedGraphNN, an open FL benchmark system that can facilitate research on federated GNNs. FedGraphNN is built on a unified formulation of graph FL and contains a wide range of datasets from different domains, popular GNN models, and FL algorithms, with secure and efficient system support. Particularly for the datasets, we collect, preprocess, and partition 36 datasets from 7 domains, including both publicly available ones and specifically obtained ones such as hERG and Tencent. Our empirical analysis showcases the utility of our benchmark system, while exposing significant challenges in graph FL: federated GNNs perform worse in most datasets with a non-IID split than centralized GNNs; the GNN model that attains the best result in the centralized setting may not maintain its advantage in the FL setting. These results imply that more research efforts are needed to unravel the mystery behind federated GNNs. Moreover, our system performance analysis demonstrates that the FedGraphNN system is computationally efficient and secure to large-scale graphs datasets. We maintain the source code at this https URL.</p></li>
 <li><p><em>Github</em> <a class="reference external" href="https://github.com/FedML-AI/FedGraphNN">FedGraphNN</a></p></li>
-<li><p><a class="reference external" href="https://zhuanlan.zhihu.com/p/429220636">论文笔记：ICLR 2021 FedGraphNN: A Federated Learning Benchmark System for Graph Neural Networks</a></p></li>
+<li><p><a class="reference external" href="https://github.com/FedML-AI/FedGraphNN/issues/7">https://github.com/FedML-AI/FedGraphNN/issues/7</a></p></li>
 <li><p>Useful Link</p>
 <ul>
 <li><p>[<a class="reference external" href="https://studio.slideslive.com/web_recorder/share/35243?s=c6631fed-5f29-42ef-8cf0-6e2b8c0b2359">ICLR 2021 Workshop Video Presentation</a>]</p></li>
@@ -250,6 +250,7 @@
 <li><p>[<a class="reference external" href="https://github.com/FedML-AI/FedGraphNN">Code</a>]</p></li>
 </ul>
 </li>
+<li><p><a class="reference external" href="https://zhuanlan.zhihu.com/p/429220636">论文笔记：ICLR 2021 FedGraphNN: A Federated Learning Benchmark System for Graph Neural Networks</a></p></li>
 </ul>
 </li>
 <li><p><strong>A Graph Federated Architecture with Privacy Preserving Learning</strong></p>
@@ -287,6 +288,50 @@
 <li><p>Date: 24 May 2021</p></li>
 <li><p>Link: <a class="reference external" href="https://arxiv.org/pdf/2105.11099">https://arxiv.org/pdf/2105.11099</a></p></li>
 <li><p>Abstract: Graph neural networks (GNN) have been successful in many fields, and derived various researches and applications in real industries. However, in some privacy sensitive scenarios (like finance, healthcare), training a GNN model centrally faces challenges due to the distributed data silos. Federated learning (FL) is a an emerging technique that can collaboratively train a shared model while keeping the data decentralized, which is a rational solution for distributed GNN training. We term it as federated graph learning (FGL). Although FGL has received increasing attention recently, the definition and challenges of FGL is still up in the air. In this position paper, we present a categorization to clarify it. Considering how graph data are distributed among clients, we propose four types of FGL: inter-graph FL, intra-graph FL and graph-structured FL, where intra-graph is further divided into horizontal and vertical FGL. For each type of FGL, we make a detailed discussion about the formulation and applications, and propose some potential challenges.</p></li>
+<li><p>Note</p>
+<ul>
+<li><p>A categorization of federated graph learning</p>
+<ul>
+<li><p>Inter-graph federated learning</p></li>
+<li><p>Intra-graph federated learning</p></li>
+<li><p>Graph-structured federated learning</p></li>
+</ul>
+</li>
+<li><p>Challenges</p>
+<ul>
+<li><p>NON-IID graph structure</p>
+<ul>
+<li><p><strong>图结构</strong>的NON-IID也可能影响其学习过程</p></li>
+</ul>
+</li>
+<li><p>Isolated graph in horizontal intra-graph FL</p>
+<ul>
+<li><p>发现客户端子图之间的潜在结构联系</p></li>
+<li><p>FedGNN 基于同态加密扩展本地子图</p></li>
+</ul>
+</li>
+<li><p>Entities matching and secure data sharing in vertical intra-graph FL</p>
+<ul>
+<li><p>纵向联邦 实体匹配 安全数据共享</p></li>
+<li><p>FedE 通过服务器中的匹配表进行知识图谱嵌入，一定程度上违反了隐私保护</p></li>
+</ul>
+</li>
+<li><p>Dataset of intra-graph FL</p>
+<ul>
+<li><p>没有合适的图数据集</p></li>
+<li><p>欧式数据容易模拟数据分布 图数据的结构信息困难</p></li>
+</ul>
+</li>
+<li><p>Communication and memory consumption</p>
+<ul>
+<li><p>通信和内存消耗</p></li>
+<li><p>图压缩技术：量化、剪枝、蒸馏</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
 <li><p>Useful Link</p>
 <ul>
 <li><p><a class="reference external" href="https://zhuanlan.zhihu.com/p/431934452">论文笔记：Arxiv 2021 Federated Graph Learning - A Position Paper</a></p></li>

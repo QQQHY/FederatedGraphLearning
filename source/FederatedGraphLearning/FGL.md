@@ -110,7 +110,7 @@ Generally sorted by category and date.
   - Date: 9 Apr 2021
   - Link: <https://arxiv.org/pdf/2104.04141>
   - Abstract: Recently, some Neural Architecture Search (NAS) techniques are proposed for the automatic design of Graph Convolutional Network (GCN) architectures. They bring great convenience to the use of GCN, but could hardly apply to the Federated Learning (FL) scenarios with distributed and private datasets, which limit their applications. Moreover, they need to train many candidate GCN models from scratch, which is inefficient for FL. To address these challenges, we propose FL-AGCNS, an efficient GCN NAS algorithm suitable for FL scenarios. FL-AGCNS designs a federated evolutionary optimization strategy to enable distributed agents to cooperatively design powerful GCN models while keeping personal information on local devices. Besides, it applies the GCN SuperNet and a weight sharing strategy to speed up the evaluation of GCN models. Experimental results show that FL-AGCNS can find better GCN models in short time under the FL framework, surpassing the state-of-the-arts NAS methods and GCN models.
-- **FedGraphNN: A Federated Learning System and Benchmark for Graph Neural Networks.**
+- **FedGraphNN: A Federated Learning System and Benchmark for Graph Neural Networks**
   - Author: Chaoyang He, Keshav Balasubramanian, Emir Ceyani, Carl Yang, Han Xie, Lichao Sun, Lifang He, Liangwei Yang, Philip S. Yu, Yu Rong, Peilin Zhao, Junzhou Huang, Murali Annavaram, Salman Avestimehr
   - Publication: ICLR-DPML 2021 & MLSys21-GNNSys 2021
   - Date: 14 Apr 2021
@@ -158,9 +158,9 @@ Generally sorted by category and date.
       - Intra-graph federated learning
       - Graph-structured federated learning
     - Challenges
-      - NON-IID graph structure 
+      - NON-IID graph structure
         - **图结构**的NON-IID也可能影响其学习过程
-      - Isolated graph in horizontal intra-graph FL 
+      - Isolated graph in horizontal intra-graph FL
         - 发现客户端子图之间的潜在结构联系
         - FedGNN 基于同态加密扩展本地子图
       - Entities matching and secure data sharing in vertical intra-graph FL

@@ -36,6 +36,7 @@
     - [A Gentle Introduction to Graph Neural Networks](https://distill.pub/2021/gnn-intro/)
     - [Understanding Convolutions on Graphs](https://distill.pub/2021/understanding-gnns/)
     - [如何理解 Graph Convolutional Network（GCN）？ - 陀飞轮的回答 - 知乎](https://www.zhihu.com/question/54504471/answer/2197371271)
+  - Graph neural networks: A review of methods and applications
   - *Github* [Awesome-GNN-Research](https://github.com/XunKaiLi/Awesome-GNN-Research)
   - *Github* [Awesome-Graph-GNN-Recommendation](https://github.com/huweibo/Awesome-Graph-GNN-Recommendation)
   - *Github* [GNN based Recommender Systems](https://github.com/tsinghua-fib-lab/GNN-Recommender-Systems)
@@ -63,6 +64,7 @@
     - [论文笔记：CCS 2021 Locally Private Graph Neural Networks](https://zhuanlan.zhihu.com/p/423444455)
     - [「ICML 2021」联邦学习相关论文导读(待更新)](https://zhuanlan.zhihu.com/p/378557472)
   - Interpretability & Explainability
+    - [awesome-graph-explainability-papers](https://github.com/flyingdoog/awesome-graph-explainability-papers)
     - [Awesome Explainable Graph Reasoning](https://github.com/AstraZeneca/awesome-explainable-graph-reasoning)
     - [ICML 2021|基于子图结构的GNN解释模型](https://zhuanlan.zhihu.com/p/377245180)
     - [[万字长文]图神经网络的解释性问题综述](https://zhuanlan.zhihu.com/p/363075193)

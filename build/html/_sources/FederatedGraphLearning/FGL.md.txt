@@ -272,21 +272,14 @@ Generally sorted by category and date.
 
 ## FL & Knowledge Graph
 
-- **Differentially Private Federated Knowledge Graphs Embedding**
-  - Author: Hao Peng, Haoran Li, Yangqiu Song, Vincent Zheng, Jianxin Li
-  - Publication: CIKM 2021
-  - Date: 17 May 2021
-  - Link: <https://arxiv.org/abs/2105.07615>
-  - Abstract:
-    Knowledge graph embedding plays an important role in knowledge representation, reasoning, and data mining applications. However, for multiple cross-domain knowledge graphs, state-of-the-art embedding models cannot make full use of the data from different knowledge domains while preserving the privacy of exchanged data. In addition, the centralized embedding model may not scale to the extensive real-world knowledge graphs. Therefore, we propose a novel decentralized scalable learning framework, \emph{Federated Knowledge Graphs Embedding} (FKGE), where embeddings from different knowledge graphs can be learnt in an asynchronous and peer-to-peer manner while being privacy-preserving. FKGE exploits adversarial generation between pairs of knowledge graphs to translate identical entities and relations of different domains into near embedding spaces. In order to protect the privacy of the training data, FKGE further implements a privacy-preserving neural network structure to guarantee no raw data leakage. We conduct extensive experiments to evaluate FKGE on 11 knowledge graphs, demonstrating a significant and consistent improvement in model quality with at most 17.85\% and 7.90\% increases in performance on triple classification and link prediction tasks.
-  - Note
-    - Knowledge Graph
 - **FedE: Embedding Knowledge Graphs in Federated Setting.**
   - Author: Mingyang Chen, Wen Zhang, Zonggang Yuan, Yantao Jia, Huajun Chen
   - Publication: Preprint
   - Date: 24 Oct 2020
   - Link: <https://arxiv.org/pdf/2010.12882>
   - Abstract: Knowledge graphs (KGs) consisting of triples are always incomplete, so it's important to do Knowledge Graph Completion (KGC) by predicting missing triples. Multi-Source KG is a common situation in real KG applications which can be viewed as a set of related individual KGs where different KGs contains relations of different aspects of entities. It's intuitive that, for each individual KG, its completion could be greatly contributed by the triples defined and labeled in other ones. However, because of the data privacy and sensitivity, a set of relevant knowledge graphs cannot complement each other's KGC by just collecting data from different knowledge graphs together. Therefore, in this paper, we introduce federated setting to keep their privacy without triple transferring between KGs and apply it in embedding knowledge graph, a typical method which have proven effective for KGC in the past decade. We propose a Federated Knowledge Graph Embedding framework FedE, focusing on learning knowledge graph embeddings by aggregating locally-computed updates. Finally, we conduct extensive experiments on datasets derived from KGE benchmark datasets and results show the effectiveness of our proposed FedE.
+  - [Official Code](https://github.com/AnselCmy/FedE)
+
 - **Improving Federated Relational Data Modeling via Basis Alignment and Weight Penalty.**
   - Author: Yilun Lin, Chaochao Chen, Cen Chen, Li Wang
   - Publication: Preprint
@@ -300,6 +293,10 @@ Generally sorted by category and date.
   - Link: <https://arxiv.org/pdf/2105.07615>
   - Abstract: Knowledge graph embedding plays an important role in knowledge representation, reasoning, and data mining applications. However, for multiple cross-domain knowledge graphs, state-of-the-art embedding models cannot make full use of the data from different knowledge domains while preserving the privacy of exchanged data. In addition, the centralized embedding model may not scale to the extensive real-world knowledge graphs. Therefore, we propose a novel decentralized scalable learning framework, \emph{Federated Knowledge Graphs Embedding} (FKGE), where embeddings from different knowledge graphs can be learnt in an asynchronous and peer-to-peer manner while being privacy-preserving. FKGE exploits adversarial generation between pairs of knowledge graphs to translate identical entities and relations of different domains into near embedding spaces. In order to protect the privacy of the training data, FKGE further implements a privacy-preserving neural network structure to guarantee no raw data leakage. We conduct extensive experiments to evaluate FKGE on 11 knowledge graphs, demonstrating a significant and consistent improvement in model quality with at most 17.85\% and 7.90\% increases in performance on triple classification and link prediction tasks.
   - Used name: Federated Knowledge Graphs Embedding
+  - Note
+    - Knowledge Graph
+    - [Official Code](https://github.com/HKUST-KnowComp/FKGE)
+    - [[CIKM 2021 | FKGE：差分隐私的联邦知识图谱嵌入]](https://mp.weixin.qq.com/s/PT4bq-xTT6eg4lmPllEOFQ)
 - **Leveraging a Federation of Knowledge Graphs to Improve Faceted Search in Digital Libraries.**
   - Author: Golsa Heidari, Ahmad Ramadan, Markus Stocker, Sören Auer
   - Publication: TPDL 2021

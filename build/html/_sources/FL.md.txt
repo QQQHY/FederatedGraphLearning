@@ -103,3 +103,8 @@ Point Processes on Knowledge Graphs](https://dl.acm.org/doi/10.1145/3397271.3401
 - [Federated Collaborative Filtering for Privacy-Preserving Personalized Recommendation System](https://arxiv.org/abs/1901.09888)
 - [Robust Federated Recommendation System](https://arxiv.org/abs/2006.08259)
 - [FedRec: Federated Recommendation With Explicit Feedback](https://ieeexplore.ieee.org/abstract/document/9170754)
+
+
+# Others
+
+[社区发现算法——louvain完全指南（更新于2021-08-29）](https://zhuanlan.zhihu.com/p/178790546)

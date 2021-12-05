@@ -218,6 +218,7 @@ Generally sorted by category and date.
     - FedSage+ : FedSage + Missing neighbor generator
     - [Meeting_20211028_FedSage](https://docs.google.com/presentation/d/1tC69KdqVy2yEOD6Ev-hBd0LiloJPvUemqAl5hFIvz5s/edit?usp=sharing)
   - Useful Link
+    - [openreview](https://openreview.net/forum?id=SJHRf5nW93)]
     - [论文笔记：NIPS 2021 Subgraph Federated Learning with Missing Neighbor Generation](https://zhuanlan.zhihu.com/p/430789355)
 
 - **Decentralized Federated Graph Neural Networks**

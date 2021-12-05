@@ -29,12 +29,10 @@ We present a practical method for the federated learning of deep networks based 
 方法
 结果 -->
 
-
-
 ## Introduction
 <!-- 背景知识 -->
 - 和传统的分布式优化相比，联邦学习的关键属性：
-  - Non-IID：、客户端数据非独立同分布
+  - Non-IID：客户端数据非独立同分布
   - Unbalanced：客户端数据量差异很大
   - Massively distributed：客户端数量极其多
   - Limited communication：通讯情况不同且通信质量难以保证

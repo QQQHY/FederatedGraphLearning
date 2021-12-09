@@ -6,10 +6,12 @@
   - [Trustworthy Federated Ubiquitous Learning (TrustFUL) Research Lab](https://trustful.federated-learning.org/)
 - Introduction & Survey
   - [Communication-Efficient Learning of Deep Networks from Decentralized Data](https://arxiv.org/abs/1602.05629)
+    - [Meeting_20211126_FedAvg](https://docs.google.com/presentation/d/1aHifJHid4PKysXJUQvdtbGRRK_xBOJijqqmGF6xgwe0/edit?usp=sharing) 
   - [Federated Learning：Challenges, Methods, and Future Directions](https://arxiv.org/pdf/1908.07873)
   - [Federated Machine Learning Concept and Applications](https://arxiv.org/pdf/1902.04885)
   - [Federated Learning in Mobile Edge Networks: A Comprehensive Survey](https://arxiv.org/pdf/1909.11875)
   - [New Frontiers in Federated Learning: Privacy, Fairness, Robustness, Personalization and Data Ownership](https://neurips2021workshopfl.github.io/NFFL-2021/)
+  - [李新春 联邦学习介绍](https://zhuanlan.zhihu.com/p/271785581)
 
 <!-- 
 [Federated Learning with Diversified Preference for Humor Recognition](https://arxiv.org/abs/2012.01675) 
@@ -41,14 +43,18 @@
   - *Github* [Awesome-Graph-GNN-Recommendation](https://github.com/huweibo/Awesome-Graph-GNN-Recommendation)
   - *Github* [GNN based Recommender Systems](https://github.com/tsinghua-fib-lab/GNN-Recommender-Systems)
   - [图神经网络实战专栏目录](https://zhuanlan.zhihu.com/p/419827839)
+  - [一文读懂图卷积GCN](https://zhuanlan.zhihu.com/p/89503068)
 - Code
   - [Graph library -- PyG、GraphGallery](https://zhuanlan.zhihu.com/p/420587332)
   - [Graph library -- DIG、AutoGL、CogDL](https://zhuanlan.zhihu.com/p/422082239)
   - [GraphGallery：几行代码玩转图神经网络](https://zhuanlan.zhihu.com/p/419511954 "中山大学图学习团队开发的图神经网络基准模型库GraphGallery")
-  - [支持异构图、集成GraphGym，超好用的图神经网络库PyG更新2.0版本](https://zhuanlan.zhihu.com/p/410246261)
-  - [图神经网络之神器——PyTorch Geometric 上手 & 实战](https://zhuanlan.zhihu.com/p/94491664)
-  - [PyTorch Geometric（一）：数据加载](https://zhuanlan.zhihu.com/p/425974734)
-  - [PyTorch Geometric（二）：模型搭建](https://zhuanlan.zhihu.com/p/427083823)
+  - [PyG | 支持异构图、集成GraphGym，超好用的图神经网络库PyG更新2.0版本](https://zhuanlan.zhihu.com/p/410246261)
+  - [PyG | 图神经网络之神器——PyTorch Geometric 上手 & 实战](https://zhuanlan.zhihu.com/p/94491664)
+  - [PyG | PyTorch Geometric（一）：数据加载](https://zhuanlan.zhihu.com/p/425974734)
+  - [PyG | PyTorch Geometric（二）：模型搭建](https://zhuanlan.zhihu.com/p/427083823)
+  - [PyG | 图神经网络库PyTorch geometric（PYG）零基础上手教程](https://zhuanlan.zhihu.com/p/91229616)
+  - [pytorch_geometric：PyG内置数据集节点分类训练并用GNNexplainer解释](https://zhuanlan.zhihu.com/p/346340591)
+  - [DGL | 关系图卷积网络](https://docs.dgl.ai/en/0.4.x/tutorials/models/1_gnn/4_rgcn.html)
 - Trustworthy GNN
   - Robustness
     - [图的鲁棒性优质论文推荐](https://zhuanlan.zhihu.com/p/427216281)

@@ -44,6 +44,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../FL.html#others">Others</a></li>
 <li class="toctree-l2"><a class="reference internal" href="GL.html">Graph Learning</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Federated Graph Learning Paper List</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#fl-graph">FL &amp; Graph</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#fl-gnn">FL &amp; GNN</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#fl-knowledge-graph">FL &amp; Knowledge Graph</a></li>
 </ul>
@@ -81,13 +82,54 @@
 <h1>Federated Graph Learning Paper List<a class="headerlink" href="#federated-graph-learning-paper-list" title="永久链接至标题"></a></h1>
 <p>Generally sorted by category and date.</p>
 <hr class="docutils" />
+<section id="fl-graph">
+<h2>FL &amp; Graph<a class="headerlink" href="#fl-graph" title="永久链接至标题"></a></h2>
+<ul class="simple">
+<li><p><strong>Peer-to-peer federated learning on graphs</strong></p>
+<ul>
+<li><p>Author:</p></li>
+<li><p>Publication:</p></li>
+<li><p>Date:</p></li>
+<li><p>Link:</p></li>
+<li><p>Abstract:</p></li>
+</ul>
+</li>
+<li><p><strong>Towards Federated Graph Learning for Collaborative Financial Crimes Detection</strong></p>
+<ul>
+<li><p>Author:</p></li>
+<li><p>Publication: NeurIPS Workshop 2019</p></li>
+<li><p>Date:</p></li>
+<li><p>Link:</p></li>
+<li><p>Abstract:</p></li>
+</ul>
+</li>
+<li><p><strong>A Graph Federated Architecture with Privacy Preserving Learning</strong></p>
+<ul>
+<li><p>Author:</p></li>
+<li><p>Publication:</p></li>
+<li><p>Date:</p></li>
+<li><p>Link:</p></li>
+<li><p>Abstract:</p></li>
+</ul>
+</li>
+<li><p><strong>Federated Myopic Community Detection with One-shot Communication</strong></p>
+<ul>
+<li><p>Author:</p></li>
+<li><p>Publication:</p></li>
+<li><p>Date:</p></li>
+<li><p>Link:</p></li>
+<li><p>Abstract:</p></li>
+</ul>
+</li>
+</ul>
+</section>
 <section id="fl-gnn">
 <h2>FL &amp; GNN<a class="headerlink" href="#fl-gnn" title="永久链接至标题"></a></h2>
 <ul class="simple">
 <li><p><strong>SGNN: A Graph Neural Network Based Federated Learning Approach by Hiding Structure</strong></p>
 <ul>
 <li><p>Author: Guangxu Mei ; Ziyu Guo; Shijun Liu; Li Pan. (SDU)</p></li>
-<li><p>Publication: Big Data 2019</p></li>
+<li><p>Publication: IEEE Big Data 2019</p></li>
 <li><p>Date: 24 February 2020</p></li>
 <li><p>Link: <a class="reference external" href="https://ieeexplore.ieee.org/abstract/document/9005983/">https://ieeexplore.ieee.org/abstract/document/9005983/</a></p></li>
 <li><p>Abstract: Networks are general tools for modeling numerous information with features and complex relations. Network Embedding aims to learn low-dimension representations for vertexes in the network with rich information including content information and structural information. In recent years, many models based on neural network have been proposed to map the network representations into embedding space whose dimension is much lower than that in original space. However, most of existing methods have the following limitations: 1) they are based on content of nodes in network, failing to measure the structure similarity of nodes; 2) they cannot do well in protecting the privacy of users including the original content information and the structural information. In this paper, we propose a similarity-based graph neural network model, SGNN, which captures the structure information of nodes precisely in node classification tasks. It also takes advantage of the thought of federated learning to hide the original information from different data sources to protect users’ privacy. We use deep graph neural network with convolutional layers and dense layers to classify the nodes based on their structures and features. The node classification experiment results on public data sets including Aminer coauthor network, Brazil and Europe flight networks indicate that our proposed model outperforms state-of-the-art models with a higher accuracy.</p></li>
@@ -344,13 +386,14 @@
 <li><p><strong>SpreadGNN: Serverless Multi-task Federated Learning for Graph Neural Networks</strong></p>
 <ul>
 <li><p>Author: Chaoyang He, Emir Ceyani, Keshav Balasubramanian, Murali Annavaram, Salman Avestimehr</p></li>
-<li><p>Publication: ICML 2021</p></li>
+<li><p>Publication: AAAI 2022</p></li>
 <li><p>Date: 4 Jun 2021</p></li>
 <li><p>Link: <a class="reference external" href="https://arxiv.org/pdf/2106.02743">https://arxiv.org/pdf/2106.02743</a></p></li>
 <li><p>Abstract: Graph Neural Networks (GNNs) are the first choice methods for graph machine learning problems thanks to their ability to learn state-of-the-art level representations from graph-structured data. However, centralizing a massive amount of real-world graph data for GNN training is prohibitive due to user-side privacy concerns, regulation restrictions, and commercial competition. Federated Learning is the de-facto standard for collaborative training of machine learning models over many distributed edge devices without the need for centralization. Nevertheless, training graph neural networks in a federated setting is vaguely defined and brings statistical and systems challenges. This work proposes SpreadGNN, a novel multi-task federated training framework capable of operating in the presence of partial labels and absence of a central server for the first time in the literature. SpreadGNN extends federated multi-task learning to realistic serverless settings for GNNs, and utilizes a novel optimization algorithm with a convergence guarantee, Decentralized Periodic Averaging SGD (DPA-SGD), to solve decentralized multi-task learning problems. We empirically demonstrate the efficacy of our framework on a variety of non-I.I.D. distributed graph-level molecular property prediction datasets with partial labels. Our results show that SpreadGNN outperforms GNN models trained over a central server-dependent federated learning system, even in constrained topologies. The source code is publicly available at <a class="reference external" href="https://github.com/FedML-AI/SpreadGNN">this https URL</a></p></li>
 <li><p>Useful link</p>
 <ul>
 <li><p><a class="reference external" href="https://zhuanlan.zhihu.com/p/429720860">论文笔记：ICML 2021 SpreadGNN: Serverless Multi task Federated Learning for Graph Neural Networks</a></p></li>
+<li><p><a class="reference external" href="https://github.com/FedML-AI/SpreadGNN">Official Code</a></p></li>
 </ul>
 </li>
 </ul>
@@ -362,6 +405,12 @@
 <li><p>Date: 9 Jun 2021</p></li>
 <li><p>Link: <a class="reference external" href="https://arxiv.org/pdf/2106.05223">https://arxiv.org/pdf/2106.05223</a></p></li>
 <li><p>Abstract: Vast amount of data generated from networks of sensors, wearables, and the Internet of Things (IoT) devices underscores the need for advanced modeling techniques that leverage the spatio-temporal structure of decentralized data due to the need for edge computation and licensing (data access) issues. While federated learning (FL) has emerged as a framework for model training without requiring direct data sharing and exchange, effectively modeling the complex spatio-temporal dependencies to improve forecasting capabilities still remains an open problem. On the other hand, state-of-the-art spatio-temporal forecasting models assume unfettered access to the data, neglecting constraints on data sharing. To bridge this gap, we propose a federated spatio-temporal model – Cross-Node Federated Graph Neural Network (CNFGNN) – which explicitly encodes the underlying graph structure using graph neural network (GNN)-based architecture under the constraint of cross-node federated learning, which requires that data in a network of nodes is generated locally on each node and remains decentralized. CNFGNN operates by disentangling the temporal dynamics modeling on devices and spatial dynamics on the server, utilizing alternating optimization to reduce the communication cost, facilitating computations on the edge devices. Experiments on the traffic flow forecasting task show that CNFGNN achieves the best forecasting performance in both transductive and inductive learning settings with no extra computation cost on edge devices, while incurring modest communication cost.</p></li>
+<li><p><a class="reference external" href="https://github.com/mengcz13/KDD2021_CNFGNN">Official PyTorch implementation of “Cross-Node Federated Graph Neural Network for Spatio-Temporal Modeling”.</a></p></li>
+<li><p><a class="reference external" href="https://zhuanlan.zhihu.com/p/441680646">用于时空数据预测的跨节点联邦学习图神经网络</a></p></li>
+<li><p><a class="reference external" href="https://zhuanlan.zhihu.com/p/434839878">论文笔记：KDD 2021 Cross-Node Federated Graph Neural Network for Spatio-Temporal Data Modeling</a></p></li>
+<li><p><a class="reference external" href="https://docs.google.com/presentation/d/165EpNbdVzNc6j6170GJ0GWePJB0MTxQK290Am10veck/edit?usp=sharing">CNFGNN</a></p></li>
+<li><p><a class="reference external" href="https://www.bilibili.com/video/BV1ub4y1Y7NW?t=3353.3">【AI TIME PhD KDD2021-1】嘉宾：王齐童、王涵之、孟垂正</a></p></li>
+<li><p><a class="reference external" href="https://openreview.net/forum?id=HWX5j6Bv_ih">ICLR Reject | Cross-Node Federated Graph Neural Network for Spatio-Temporal Data Modeling</a></p></li>
 </ul>
 </li>
 <li><p><strong>A Vertical Federated Learning Framework for Graph Convolutional Network</strong></p>
@@ -393,6 +442,7 @@
 <li><p>Useful Link</p>
 <ul>
 <li><p><a class="reference external" href="https://zhuanlan.zhihu.com/p/430623053">论文笔记：NIPS 2021 Federated Graph Classification over Non-IID Graphs (GCFL)</a></p></li>
+<li><p><a class="reference external" href="https://mp.weixin.qq.com/s?__biz=Mzg5MjY0NTQ1MQ==&amp;mid=2247484504&amp;idx=1&amp;sn=9be593fb9e0f33e543e7a207ecd28872&amp;chksm=c03bbd7cf74c346a2a23b7c117c598633295cce75f0b03d35252f1597f051f5f9600534d78d1&amp;token=2123268658&amp;lang=zh_CN#rd">NeurIPS’21 | Non-IID图数据上的联邦图学习</a></p></li>
 </ul>
 </li>
 </ul>
@@ -448,7 +498,7 @@ Graphs have been widely used in data mining and machine learning due to their un
 <li><p><strong>A Federated Multigraph Integration Approach for Connectional Brain Template Learning</strong></p>
 <ul>
 <li><p>Author: Hızır Can BayramIslem Rekik</p></li>
-<li><p>Publication: ML-CDS 2021</p></li>
+<li><p>Publication: MICCAI Workshop ML-CDS 2021</p></li>
 <li><p>Date: 20 October 2021</p></li>
 <li><p>Link: <a class="reference external" href="https://link.springer.com/chapter/10.1007/978-3-030-89847-2_4">https://link.springer.com/chapter/10.1007/978-3-030-89847-2_4</a></p></li>
 <li><p>Abstract: The connectional brain template (CBT) is a compact representation (i.e., a single connectivity matrix) multi-view brain networks of a given population. CBTs are especially very powerful tools in brain dysconnectivity diagnosis as well as holistic brain mapping if they are learned properly – i.e., occupy the center of the given population. Even though accessing large-scale datasets is much easier nowadays, it is still challenging to upload all these clinical datasets in a server altogether due to the data privacy and sensitivity. Federated learning, on the other hand, has opened a new era for machine learning algorithms where different computers are trained together via a distributed system. Each computer (i.e., a client) connected to a server, trains a model with its local dataset and sends its learnt model weights back to the server. Then, the server aggregates these weights thereby outputting global model weights encapsulating information drawn from different datasets in a privacy-preserving manner. Such a pipeline endows the global model with a generalizability power as it implicitly benefits from the diversity of the local datasets. In this work, we propose the first federated connectional brain template learning (Fed-CBT) framework to learn how to integrate multi-view brain connectomic datasets collected by different hospitals into a single representative connectivity map. First, we choose a random fraction of hospitals to train our global model. Next, all hospitals send their model weights to the server to aggregate them. We also introduce a weighting method for aggregating model weights to take full benefit from all hospitals. Our model to the best of our knowledge is the first and only federated pipeline to estimate connectional brain templates using graph neural networks. Our Fed-CBT code is available at <a class="reference external" href="https://github.com/basiralab/Fed-CBT">https://github.com/basiralab/Fed-CBT</a>.</p></li>
@@ -456,20 +506,21 @@ Graphs have been widely used in data mining and machine learning due to their un
 </li>
 <li><p><strong>FedGraph: Federated Graph Learning with Intelligent Sampling</strong></p>
 <ul>
-<li><p>Author:</p></li>
-<li><p>Publication: IEEE TPDS</p></li>
+<li><p>Author: Fahao Chen, Peng Li, Toshiaki Miyazaki, Celimuge Wu</p></li>
+<li><p>Publication: IEEE TPDS 2021</p></li>
 <li><p>Date: 2 Nov 2021</p></li>
 <li><p>Link: <a class="reference external" href="https://arxiv.org/abs/2111.01370">https://arxiv.org/abs/2111.01370</a></p></li>
-<li><p>Abstract:</p></li>
+<li><p>Abstract: Federated learning has attracted much research attention due to its privacy protection in distributed machine learning. However, existing work of federated learning mainly focuses on Convolutional Neural Network (CNN), which cannot efficiently handle graph data that are popular in many applications. Graph Convolutional Network (GCN) has been proposed as one of the most promising techniques for graph learning, but its federated setting has been seldom explored. In this paper, we propose FedGraph for federated graph learning among multiple computing clients, each of which holds a subgraph. FedGraph provides strong graph learning capability across clients by addressing two unique challenges. First, traditional GCN training needs feature data sharing among clients, leading to risk of privacy leakage. FedGraph solves this issue using a novel cross-client convolution operation. The second challenge is high GCN training overhead incurred by large graph size. We propose an intelligent graph sampling algorithm based on deep reinforcement learning, which can automatically converge to the optimal sampling policies that balance training speed and accuracy. We implement FedGraph based on PyTorch and deploy it on a testbed for performance evaluation. The experimental results of four popular datasets demonstrate that FedGraph significantly outperforms existing work by enabling faster convergence to higher accuracy.</p></li>
 </ul>
 </li>
-<li><p><strong>Federated Knowledge Graph Embeddings with Heterogeneous Data</strong></p>
+<li><p><strong>Federated Learning with Heterogeneous Architectures using Graph HyperNetworks</strong></p>
 <ul>
-<li><p>Author:</p></li>
+<li><p>Author: Anonymous</p></li>
 <li><p>Publication:</p></li>
 <li><p>Date:</p></li>
-<li><p>Link: <a class="reference external" href="https://link.springer.com/chapter/10.1007/978-981-16-6471-7_2">https://link.springer.com/chapter/10.1007/978-981-16-6471-7_2</a></p></li>
-<li><p>Abstract:</p></li>
+<li><p>Link: <a class="reference external" href="https://openreview.net/forum?id=7x_47XJULn">https://openreview.net/forum?id=7x_47XJULn</a></p></li>
+<li><p>Abstract: Standard Federated Learning (FL) techniques are limited to clients with identical network architectures. As a result, inter-organizational collaboration is severely restricted when both data privacy and architectural proprietary are required. In this work, we propose a new FL framework that removes this limitation by adopting a graph hypernetwork as a shared knowledge aggregator. A property of the graph hyper network is that it can adapt to various computational graphs, thereby allowing meaningful parameter sharing across models. Unlike existing solutions, our framework makes no use of external data and does not require clients to disclose their model architecture. Compared with distillation-based and non-graph hypernetwork baselines, our method performs notably better on standard benchmarks. We additionally show encouraging generalization performance to unseen architectures.</p></li>
+<li><p>One-sentence Summary: A graph-hypernetwork-based solution for federated learning where clients have different neural architectures</p></li>
 </ul>
 </li>
 </ul>
@@ -529,6 +580,15 @@ Graphs have been widely used in data mining and machine learning due to their un
 <li><p>Date: 5 Jul 2021</p></li>
 <li><p>Link: <a class="reference external" href="https://arxiv.org/pdf/2107.05447">https://arxiv.org/pdf/2107.05447</a></p></li>
 <li><p>Abstract: Scientists always look for the most accurate and relevant answers to their queries in the literature. Traditional scholarly digital libraries list documents in search results, and therefore are unable to provide precise answers to search queries. In other words, search in digital libraries is metadata search and, if available, full-text search. We present a methodology for improving a faceted search system on structured content by leveraging a federation of scholarly knowledge graphs. We implemented the methodology on top of a scholarly knowledge graph. This search system can leverage content from third-party knowledge graphs to improve the exploration of scholarly content. A novelty of our approach is that we use dynamic facets on diverse data types, meaning that facets can change according to the user query. The user can also adjust the granularity of dynamic facets. An additional novelty is that we leverage third-party knowledge graphs to improve exploring scholarly knowledge.</p></li>
+</ul>
+</li>
+<li><p><strong>Federated Knowledge Graph Embeddings with Heterogeneous Data</strong></p>
+<ul>
+<li><p>Author:</p></li>
+<li><p>Publication:</p></li>
+<li><p>Date:</p></li>
+<li><p>Link: <a class="reference external" href="https://link.springer.com/chapter/10.1007/978-981-16-6471-7_2">https://link.springer.com/chapter/10.1007/978-981-16-6471-7_2</a></p></li>
+<li><p>Abstract:</p></li>
 </ul>
 </li>
 </ul>

@@ -6,7 +6,7 @@
   - [Trustworthy Federated Ubiquitous Learning (TrustFUL) Research Lab](https://trustful.federated-learning.org/)
 - Introduction & Survey
   - [Communication-Efficient Learning of Deep Networks from Decentralized Data](https://arxiv.org/abs/1602.05629)
-    - [Meeting_20211126_FedAvg](https://docs.google.com/presentation/d/1aHifJHid4PKysXJUQvdtbGRRK_xBOJijqqmGF6xgwe0/edit?usp=sharing) 
+    - [Meeting_20211126_FedAvg](https://docs.google.com/presentation/d/1aHifJHid4PKysXJUQvdtbGRRK_xBOJijqqmGF6xgwe0/edit?usp=sharing)
   - [Federated Learning：Challenges, Methods, and Future Directions](https://arxiv.org/pdf/1908.07873)
   - [Federated Machine Learning Concept and Applications](https://arxiv.org/pdf/1902.04885)
   - [Federated Learning in Mobile Edge Networks: A Comprehensive Survey](https://arxiv.org/pdf/1909.11875)
@@ -96,8 +96,7 @@
 - [联邦学习里面的知识蒸馏技术 （一）](https://zhuanlan.zhihu.com/p/305988547)
 - [联邦学习与知识联邦](https://zhuanlan.zhihu.com/p/383617540)
 - [中国联邦学习「五个大型项目」——学习方向参考](https://zhuanlan.zhihu.com/p/383550479)
-- [Enhancing Recommendation Diversity using Determinantal
-Point Processes on Knowledge Graphs](https://dl.acm.org/doi/10.1145/3397271.3401213)
+- [Enhancing Recommendation Diversity using Determinantal Point Processes on Knowledge Graphs](https://dl.acm.org/doi/10.1145/3397271.3401213)
 
 ## Federated Recommendation Systems
 
@@ -110,7 +109,6 @@ Point Processes on Knowledge Graphs](https://dl.acm.org/doi/10.1145/3397271.3401
 - [Robust Federated Recommendation System](https://arxiv.org/abs/2006.08259)
 - [FedRec: Federated Recommendation With Explicit Feedback](https://ieeexplore.ieee.org/abstract/document/9170754)
 
-
-# Others
+## Others
 
 [社区发现算法——louvain完全指南（更新于2021-08-29）](https://zhuanlan.zhihu.com/p/178790546)

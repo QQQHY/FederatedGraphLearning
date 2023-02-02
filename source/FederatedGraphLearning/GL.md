@@ -7,12 +7,12 @@ Generally sorted by date.
 ## Survey
 
 - **A Comprehensive Survey on Graph Neural Networks**
-  - Author:
-  - Publication:
-  - Date:
-  - Link:
-  - Abstract:
-  - Note：IEEE TNNLS 2020
+  - Author: Zonghan Wu, Shirui Pan, Fengwen Chen, Guodong Long, Chengqi Zhang, Philip S. Yu
+  - Publication: IEEE TNNLS 2020
+  - Date: 3 Jan 2019
+  - Link: <https://arxiv.org/abs/1901.00596>
+  - Abstract: Deep learning has revolutionized many machine learning tasks in recent years, ranging from image classification and video processing to speech recognition and natural language understanding. The data in these tasks are typically represented in the Euclidean space. However, there is an increasing number of applications where data are generated from non-Euclidean domains and are represented as graphs with complex relationships and interdependency between objects. The complexity of graph data has imposed significant challenges on existing machine learning algorithms. Recently, many studies on extending deep learning approaches for graph data have emerged. In this survey, we provide a comprehensive overview of graph neural networks (GNNs) in data mining and machine learning fields. We propose a new taxonomy to divide the state-of-the-art graph neural networks into four categories, namely recurrent graph neural networks, convolutional graph neural networks, graph autoencoders, and spatial-temporal graph neural networks. We further discuss the applications of graph neural networks across various domains and summarize the open source codes, benchmark data sets, and model evaluation of graph neural networks. Finally, we propose potential research directions in this rapidly growing field.
+  - Note：
 
 - **Deep Learning on Graphs: A Survey**
   - Author:
@@ -27,6 +27,14 @@ Generally sorted by date.
   - Publication:
   - Date:
   - Link:
+  - Abstract:
+  - Note：
+
+- **Graph-Based Deep Learning for Medical Diagnosis and Analysis: Past, Present and Future**
+  - Author:
+  - Publication:
+  - Date:
+  - Link: <https://arxiv.org/abs/2105.13137>
   - Abstract:
   - Note：
 
@@ -64,6 +72,7 @@ Generally sorted by date.
   - Abstract: Deep learning methods for graphs achieve remarkable performance on many node-level and graph-level prediction tasks. However, despite the proliferation of the methods and their success, prevailing Graph Neural Networks (GNNs) neglect subgraphs, rendering subgraph prediction tasks challenging to tackle in many impactful applications. Further, subgraph prediction tasks present several unique challenges: subgraphs can have non-trivial internal topology, but also carry a notion of position and external connectivity information relative to the underlying graph in which they exist. Here, we introduce SubGNN, a subgraph neural network to learn disentangled subgraph representations. We propose a novel subgraph routing mechanism that propagates neural messages between the subgraph's components and randomly sampled anchor patches from the underlying graph, yielding highly accurate subgraph representations. SubGNN specifies three channels, each designed to capture a distinct aspect of subgraph topology, and we provide empirical evidence that the channels encode their intended properties. We design a series of new synthetic and real-world subgraph datasets. Empirical results for subgraph classification on eight datasets show that SubGNN achieves considerable performance gains, outperforming strong baseline methods, including node-level and graph-level GNNs, by 19.8% over the strongest baseline. SubGNN performs exceptionally well on challenging biomedical datasets where subgraphs have complex topology and even comprise multiple disconnected components.
   - Note
     - [Subgraph Neural Networks 论文阅读](https://zhuanlan.zhihu.com/p/337203750)
+    - [SubGNN](https://github.com/mims-harvard/SubGNN)
 
 ## Heterogeneous GNN
 
@@ -145,16 +154,16 @@ He, Chang Zhou, Jianguo Jiang, Yuxiao Dong, Jie Tang. 2
   - HGT较好
   - 提出simple-HGNN
 
+- **The State-of-the-Art of Heterogeneous Graph Representation**
+  - Author: Chuan Shi, Xiao Wang & Philip S. Yu
+  - Publication:
+  - Date:
+  - Link: <https://link.springer.com/chapter/10.1007/978-981-16-6166-2_2>
+  - Abstract:
+
 ***
 
 ## Privacy-Preserving
-
-- **Towards Representation Identical Privacy-Preserving Graph Neural Network via Split Learning**
-  - Author: Chuanqiang Shan, Huiyun Jiao, Jie Fu
-  - Publication: arXiv
-  - Date: 13 Jul 2021
-  - Link: <https://arxiv.org/abs/2107.05917>
-  - Abstract: In recent years, the fast rise in number of studies on graph neural network (GNN) has put it from the theories research toreality application stage. Despite the encouraging performance achieved by GNN, less attention has been paid to theprivacy-preserving training and inference over distributed graph data in the related literature. Due to the particularity of graph structure,it is challenging to extend the existing private learning framework to GNN. Motivated by the idea of split learning, we propose aServerAidedPrivacy-preservingGNN(SAPGNN) for the node level task on horizontally partitioned cross-silo scenario. It offers a naturalextension of centralized GNN to isolated graph with max/min pooling aggregation, while guaranteeing that all the private data involvedin computation still stays at local data holders. To further enhancing the data privacy, a secure pooling aggregation mechanism isproposed. Theoretical and experimental results show that the proposed model achieves the same accuracy as the one learned overthe combined dat
 
 - **Locally Private Graph Neural Networks**
   - Author: Sina Sajadmanesh, Daniel Gatica-Perez
@@ -187,19 +196,44 @@ He, Chang Zhou, Jianguo Jiang, Yuxiao Dong, Jie Tang. 2
   - Date: 5 Jun 2021
   - Link: <https://arxiv.org/abs/2106.02820>
   - Abstract: As machine learning becomes more widely used for critical applications, the need to study its implications in privacy turns to be urgent. Given access to the target model and auxiliary information, the model inversion attack aims to infer sensitive features of the training dataset, which leads to great privacy concerns. Despite its success in grid-like domains, directly applying model inversion techniques on non-grid domains such as graph achieves poor attack performance due to the difficulty to fully exploit the intrinsic properties of graphs and attributes of nodes used in Graph Neural Networks (GNN). To bridge this gap, we present \textbf{Graph} \textbf{M}odel \textbf{I}nversion attack (GraphMI), which aims to extract private graph data of the training graph by inverting GNN, one of the state-of-the-art graph analysis tools. Specifically, we firstly propose a projected gradient module to tackle the discreteness of graph edges while preserving the sparsity and smoothness of graph features. Then we design a graph auto-encoder module to efficiently exploit graph topology, node attributes, and target model parameters for edge inference. With the proposed methods, we study the connection between model inversion risk and edge influence and show that edges with greater influence are more likely to be recovered. Extensive experiments over several public datasets demonstrate the effectiveness of our method. We also show that differential privacy in its canonical form can hardly defend our attack while preserving decent utility.
-  - Official Code: https://github.com/zaixizhang/GraphMI
+  - Official Code: <https://github.com/zaixizhang/GraphMI>
   
+- **Towards Representation Identical Privacy-Preserving Graph Neural Network via Split Learning**
+  - Author: Chuanqiang Shan, Huiyun Jiao, Jie Fu
+  - Publication: arXiv
+  - Date: 13 Jul 2021
+  - Link: <https://arxiv.org/abs/2107.05917>
+  - Abstract: In recent years, the fast rise in number of studies on graph neural network (GNN) has put it from the theories research toreality application stage. Despite the encouraging performance achieved by GNN, less attention has been paid to theprivacy-preserving training and inference over distributed graph data in the related literature. Due to the particularity of graph structure,it is challenging to extend the existing private learning framework to GNN. Motivated by the idea of split learning, we propose aServerAidedPrivacy-preservingGNN(SAPGNN) for the node level task on horizontally partitioned cross-silo scenario. It offers a naturalextension of centralized GNN to isolated graph with max/min pooling aggregation, while guaranteeing that all the private data involvedin computation still stays at local data holders. To further enhancing the data privacy, a secure pooling aggregation mechanism isproposed. Theoretical and experimental results show that the proposed model achieves the same accuracy as the one learned overthe combined data.
 
 - **Node-Level Differentially Private Graph Neural Networks**
   - Author: Ameya Daigavane, Gagan Madan, Aditya Sinha, Abhradeep Guha Thakurta, Gaurav Aggarwal, Prateek Jain
-  - Publication: 
+  - Publication:
   - Date: 23 Nov 2021
-  - Link: 
+  - Link:
     - <https://arxiv.org/abs/2111.15521>
     - <https://openreview.net/forum?id=tCx6AefvuPf>
   - Abstract: Graph Neural Networks (GNNs) are a popular technique for modelling graph-structured data that compute node-level representations via aggregation of information from the local neighborhood of each node. However, this aggregation implies increased risk of revealing sensitive information, as a node can participate in the inference for multiple nodes. This implies that standard privacy preserving machine learning techniques, such as differentially private stochastic gradient descent (DP-SGD) - which are designed for situations where each data point participates in the inference for one point only - either do not apply, or lead to inaccurate solutions. In this work, we formally define the problem of learning 1-layer GNNs with node-level privacy, and provide an algorithmic solution with a strong differential privacy guarantee. Even though each node can be involved in the inference for multiple nodes, by employing a careful sensitivity analysis anda non-trivial extension of the privacy-by-amplification technique, our method is able to provide accurate solutions with solid privacy parameters. Empirical evaluation on standard benchmarks demonstrates that our method is indeed able to learn accurate privacy preserving GNNs, while still outperforming standard non-private methods that completely ignore graph information.
 
+- **Trustworthy Graph Neural Networks: Aspects, Methods and Trends**
+  - Author: He Zhang, Bang Wu, Xingliang Yuan, Shirui Pan, Hanghang Tong, Jian Pei
+  - Publication:
+  - Date: 16 May 2022
+  - Link: <https://arxiv.org/abs/2205.07424>
+  - Abstract: Graph neural networks (GNNs) have emerged as a series of competent graph learning methods for diverse real-world scenarios, ranging from daily applications like recommendation systems and question answering to cutting-edge technologies such as drug discovery in life sciences and n-body simulation in astrophysics. However, task performance is not the only requirement for GNNs. Performance-oriented GNNs have exhibited potential adverse effects like vulnerability to adversarial attacks, unexplainable discrimination against disadvantaged groups, or excessive resource consumption in edge computing environments. To avoid these unintentional harms, it is necessary to build competent GNNs characterised by trustworthiness. To this end, we propose a comprehensive roadmap to build trustworthy GNNs from the view of the various computing technologies involved. In this survey, we introduce basic concepts and comprehensively summarise existing efforts for trustworthy GNNs from six aspects, including robustness, explainability, privacy, fairness, accountability, and environmental well-being. Additionally, we highlight the intricate cross-aspect relations between the above six aspects of trustworthy GNNs. Finally, we present a thorough overview of trending directions for facilitating the research and industrialisation of trustworthy GNNs.
 
+- **Adversarial Attack and Defense on Graph Data: A Survey**
+  - Author: Lichao Sun, Yingtong Dou, Carl Yang, Ji Wang, Philip S. Yu, Lifang He, Bo Li
+  - Publication:
+  - Date: 26 Dec 2018
+  - Link: <https://arxiv.org/abs/1812.10528>
+  - Abstract:Deep neural networks (DNNs) have been widely applied to various applications including image classification, text generation, audio recognition, and graph data analysis. However, recent studies have shown that DNNs are vulnerable to adversarial attacks. Though there are several works studying adversarial attack and defense strategies on domains such as images and natural language processing, it is still difficult to directly transfer the learned knowledge to graph structure data due to its representation challenges. Given the importance of graph analysis, an increasing number of works start to analyze the robustness of machine learning models on graph data. Nevertheless, current studies considering adversarial behaviors on graph data usually focus on specific types of attacks with certain assumptions. In addition, each work proposes its own mathematical formulation which makes the comparison among different methods difficult. Therefore, in this paper, we aim to survey existing adversarial learning strategies on graph data and first provide a unified formulation for adversarial learning on graph data which covers most adversarial learning studies on graph. Moreover, we also compare different attacks and defenses on graph data and discuss their corresponding contributions and limitations. In this work, we systemically organize the considered works based on the features of each topic. This survey not only serves as a reference for the research community, but also brings a clear image researchers outside this research domain. Besides, we also create an online resource and keep updating the relevant papers during the last two years. More details of the comparisons of various studies based on this survey are open-sourced at this https URL.
+
+- **A survey on heterogeneous information network based recommender systems: Concepts, methods, applications and resources**
+- Author:
+- Publication:
+- Date:
+- Link: <https://www.sciencedirect.com/science/article/pii/S2666651022000092?via%3Dihub>
+- Abstract:
 
 <!--
 - ****

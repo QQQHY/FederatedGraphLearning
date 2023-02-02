@@ -70,6 +70,7 @@ Generally sorted by category and date.
   - Link: <https://arxiv.org/pdf/2009.07351>
   - Abstract: Given video data from multiple personal devices or street cameras, can we exploit the structural and dynamic information to learn dynamic representation of objects for applications such as distributed surveillance, without storing data at a central server that leads to a violation of user privacy? In this work, we introduce Federated Dynamic Graph Neural Network (Feddy), a distributed and secured framework to learn the object representations from multi-user graph sequences: i) It aggregates structural information from nearby objects in the current graph as well as dynamic information from those in the previous graph. It uses a self-supervised loss of predicting the trajectories of objects. ii) It is trained in a federated learning manner. The centrally located server sends the model to user devices. Local models on the respective user devices learn and periodically send their learning to the central server without ever exposing the user's data to server. iii) Studies showed that the aggregated parameters could be inspected though decrypted when broadcast to clients for model synchronizing, after the server performed a weighted average. We design an appropriate aggregation mechanism of secure aggregation primitives that can protect the security and privacy in federated learning with scalability. Experiments on four video camera datasets (in four different scenes) as well as simulation demonstrate that Feddy achieves great effectiveness and security.
   - Note：Feddy：学习动态表示，利用自监督loss进行轨迹预测。
+  
 - **ASFGNN: Automated Separated-Federated Graph Neural Network**
   - Author: Longfei Zheng, Jun Zhou, Chaochao Chen, Bingzhe Wu, Li Wang, Benyu Zhang
   - Publication: PPNA 2021
@@ -245,6 +246,8 @@ Generally sorted by category and date.
   - Useful Link
     - [论文笔记：NIPS 2021 Federated Graph Classification over Non-IID Graphs (GCFL)](https://zhuanlan.zhihu.com/p/430623053)
     - [NeurIPS'21 | Non-IID图数据上的联邦图学习](https://mp.weixin.qq.com/s?__biz=Mzg5MjY0NTQ1MQ==&mid=2247484504&idx=1&sn=9be593fb9e0f33e543e7a207ecd28872&chksm=c03bbd7cf74c346a2a23b7c117c598633295cce75f0b03d35252f1597f051f5f9600534d78d1&token=2123268658&lang=zh_CN#rd)
+    - [NIPS OpenReview](https://openreview.net/forum?id=yJqcM36Qvnu)
+    - [code](https://github.com/Oxfordblue7/GCFL)
 - **Subgraph Federated Learning with Missing Neighbor Generation**
   - Author: Ke Zhang, Carl Yang, Xiaoxiao Li, Lichao Sun, Siu Ming Yiu
   - Publication: NeurIPS 2021
@@ -277,7 +280,12 @@ Generally sorted by category and date.
   - Link: <https://arxiv.org/abs/2109.07258>
   - Abstract:
   - [Wei Zhu](https://zwvews.github.io/)
-
+- **Graph-Fraudster: Adversarial Attacks on Graph Neural Network Based Vertical Federated Learning**
+  - Author: Jinyin Chen, Guohan Huang, Shanqing Yu, Wenrong Jiang, Chen Cui
+  - Publication: 
+  - Date: 13 Oct 2021
+  - Link: <https://arxiv.org/abs/2110.06468>
+  - Abstract: Graph neural network (GNN) models have achieved great success on graph representation learning. Challenged by large scale private data collection from user-side, GNN models may not be able to reflect the excellent performance, without rich features and complete adjacent relationships. Addressing to the problem, vertical federated learning (VFL) is proposed to implement local data protection through training a global model collaboratively. Consequently, for graph-structured data, it is natural idea to construct VFL framework with GNN models. However, GNN models are proven to be vulnerable to adversarial attacks. Whether the vulnerability will be brought into the VFL has not been studied. In this paper, we devote to study the security issues of GNN based VFL (GVFL), i.e., robustness against adversarial attacks. Further, we propose an adversarial attack method, named Graph-Fraudster. It generates adversarial perturbations based on the noise-added global node embeddings via GVFL's privacy leakage, and the gradient of pairwise node. First, it steals the global node embeddings and sets up a shadow server model for attack generator. Second, noises are added into node embeddings to confuse the shadow server model. At last, the gradient of pairwise node is used to generate attacks with the guidance of noise-added node embeddings. To the best of our knowledge, this is the first study of adversarial attacks on GVFL. The extensive experiments on five benchmark datasets demonstrate that Graph-Fraudster performs better than three possible baselines in GVFL. Furthermore, Graph-Fraudster can remain a threat to GVFL even if two possible defense mechanisms are applied. This paper reveals that GVFL is vulnerable to adversarial attack similar to centralized GNN models.
 - **A Federated Multigraph Integration Approach for Connectional Brain Template Learning**
   - Author: Hızır Can BayramIslem Rekik
   - Publication: MICCAI Workshop ML-CDS 2021
@@ -302,6 +310,23 @@ Generally sorted by category and date.
   - Abstract: Standard Federated Learning (FL) techniques are limited to clients with identical network architectures. As a result, inter-organizational collaboration is severely restricted when both data privacy and architectural proprietary are required. In this work, we propose a new FL framework that removes this limitation by adopting a graph hypernetwork as a shared knowledge aggregator. A property of the graph hyper network is that it can adapt to various computational graphs, thereby allowing meaningful parameter sharing across models. Unlike existing solutions, our framework makes no use of external data and does not require clients to disclose their model architecture. Compared with distillation-based and non-graph hypernetwork baselines, our method performs notably better on standard benchmarks. We additionally show encouraging generalization performance to unseen architectures.
   - One-sentence Summary: A graph-hypernetwork-based solution for federated learning where clients have different neural architectures
 
+
+- **Graph Neural Networks for Graphs with Heterophily: A Survey**
+  - Author: Xin Zheng, Yixin Liu, Shirui Pan, Miao Zhang, Di Jin, Philip S. Yu
+  - Publication: 
+  - Date: 14 Feb 2022
+  - Link: <https://arxiv.org/abs/2202.07082>
+  - Abstract: Recent years have witnessed fast developments of graph neural networks (GNNs) that have benefited myriads of graph analytic tasks and applications. In general, most GNNs depend on the homophily assumption that nodes belonging to the same class are more likely to be connected. However, as a ubiquitous graph property in numerous real-world scenarios, heterophily, i.e., nodes with different labels tend to be linked, significantly limits the performance of tailor-made homophilic GNNs. Hence, \textit{GNNs for heterophilic graphs} are gaining increasing attention in this community. To the best of our knowledge, in this paper, we provide a comprehensive review of GNNs for heterophilic graphs for the first time. Specifically, we propose a systematic taxonomy that essentially governs existing heterophilic GNN models, along with a general summary and detailed analysis. Furthermore, we summarize the mainstream heterophilic graph benchmarks to facilitate robust and fair evaluations. In the end, we point out the potential directions to advance and stimulate future research and applications on heterophilic graphs.
+
+- **Federated Graph Neural Networks: Overview, Techniques and Challenges**
+  - Author: Rui Liu, Han Yu
+  - Publication: 
+  - Date: 15 Feb 2022
+  - Link: <https://arxiv.org/abs/2202.07256>
+  - Abstract: With its powerful capability to deal with graph data widely found in practical applications, graph neural networks (GNNs) have received significant research attention. However, as societies become increasingly concerned with data privacy, GNNs face the need to adapt to this new normal. This has led to the rapid development of federated graph neural networks (FedGNNs) research in recent years. Although promising, this interdisciplinary field is highly challenging for interested researchers to enter into. The lack of an insightful survey on this topic only exacerbates this problem. In this paper, we bridge this gap by offering a comprehensive survey of this emerging field. We propose a unique 3-tiered taxonomy of the FedGNNs literature to provide a clear view into how GNNs work in the context of Federated Learning (FL). It puts existing works into perspective by analyzing how graph data manifest themselves in FL settings, how GNN training is performed under different FL system architectures and degrees of graph data overlap across data silo, and how GNN aggregation is performed under various FL settings. Through discussions of the advantages and limitations of existing works, we envision future research directions that can help build more robust, dynamic, efficient, and interpretable FedGNNs.
+  - [图联邦 分类法：Federated Graph Neural Networks: Overview, Techniques and Challenges](https://zhuanlan.zhihu.com/p/471533433)
+  - [【论文导读】- Federated Graph Neural Networks: Overview, Techniques and Challenges（联邦图神经网络：概述、技术和挑战）](https://blog.csdn.net/weixin_43598687/article/details/126806134)
+  - [Federated Graph Neural Networks: Overview, Techniques and Challenges](https://zhuanlan.zhihu.com/p/469627405) 
 
 <!--
 - ****
@@ -355,6 +380,8 @@ Generally sorted by category and date.
   - Date:
   - Link: <https://link.springer.com/chapter/10.1007/978-981-16-6471-7_2>
   - Abstract:
+
+[Paper精读｜王桢十问解析FederatedScope-GNN](https://zhuanlan.zhihu.com/p/585987618)
 
 <!--
 - ****

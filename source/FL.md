@@ -4,18 +4,38 @@
 
 - [The Federated Learning Portal](https://federated-learning.org/)
   - [Trustworthy Federated Ubiquitous Learning (TrustFUL) Research Lab](https://trustful.federated-learning.org/)
-- Introduction & Survey
-  - [Communication-Efficient Learning of Deep Networks from Decentralized Data](https://arxiv.org/abs/1602.05629)
+- Introduction
+  - [](https://arxiv.org/abs/1602.05629)
     - [Meeting_20211126_FedAvg](https://docs.google.com/presentation/d/1aHifJHid4PKysXJUQvdtbGRRK_xBOJijqqmGF6xgwe0/edit?usp=sharing)
-  - [Federated Learning：Challenges, Methods, and Future Directions](https://arxiv.org/pdf/1908.07873)
-  - [Federated Machine Learning Concept and Applications](https://arxiv.org/pdf/1902.04885)
-  - [Federated Learning in Mobile Edge Networks: A Comprehensive Survey](https://arxiv.org/pdf/1909.11875)
   - [New Frontiers in Federated Learning: Privacy, Fairness, Robustness, Personalization and Data Ownership](https://neurips2021workshopfl.github.io/NFFL-2021/)
   - [李新春 联邦学习介绍](https://zhuanlan.zhihu.com/p/271785581)
+- Survey 
+  - [Federated Machine Learning Concept and Applications](https://arxiv.org/pdf/1902.04885)
+  - [A Survey on Federated Learning Systems: Vision, Hype and Reality for Data Privacy and Protection](https://arxiv.org/abs/1907.09693)
+  - [Federated Learning：Challenges, Methods, and Future Directions](https://arxiv.org/pdf/1908.07873)
+  - [Federated Learning in Mobile Edge Networks: A Comprehensive Survey](https://arxiv.org/pdf/1909.11875)
+  - [Federated Learning for Healthcare Informatics](https://arxiv.org/abs/1911.06270)
+  - [Advances and Open Problems in Federated Learning](https://arxiv.org/abs/1912.04977)
+  - [Threats to Federated Learning: A Survey](https://arxiv.org/abs/2003.02133)
+  - [Privacy and Robustness in Federated Learning: Attacks and Defenses](https://arxiv.org/abs/2012.06337)
+  - [A Survey on Federated Learning: The Journey from Centralized to Distributed On-Site Learning and Beyond](https://ieeexplore.ieee.org/abstract/document/9220780)
+  - [From Distributed Machine Learning to Federated Learning: A Survey](https://arxiv.org/abs/2104.14362)
+  - [Federated Learning for Smart Healthcare: A Survey](https://arxiv.org/abs/2111.08834)
+  - [Robust and Privacy-Preserving Collaborative Learning: A Comprehensive Survey](https://arxiv.org/abs/2112.10183)
+- Non-IID
+  - [Federated Learning on Non-IID Data Silos: An Experimental Study](https://arxiv.org/abs/2102.0207)
+    - [论文笔记：arXiv'21 Federated Learning on Non-IID Data Silos: An Experimental Study](https://zhuanlan.zhihu.com/p/439561676)
+  - [Ensemble Federated Adversarial Training with Non-IID data](https://federated-learning.org/fl-ijcai-2021/FTL-IJCAI21_paper_28.pdf) 
+  - [联邦学习数据异构问题的方法，收敛性以及展望](https://mp.weixin.qq.com/s/Vqiz2mWtJ3n1iujxrP7_2Q)
+  - [References on Federated Learning，联邦学习参考文献](https://zhuanlan.zhihu.com/p/87777798)
+  - [Threats, attacks and defenses to federated learning: issues, taxonomy and perspectives](https://cybersecurity.springeropen.com/articles/10.1186/s42400-021-00105-6) 
+  - [Privacy and Robustness in Federated Learning: Attacks and Defenses](https://arxiv.org/pdf/2012.06337.pdf)
+  - [Towards Personalized Federated Learning](https://ieeexplore.ieee.org/document/9743558)
+  - [Threats to Federated Learning: A Survey](https://arxiv.org/pdf/2003.02133.pdf)
 
 <!-- 
 [Federated Learning with Diversified Preference for Humor Recognition](https://arxiv.org/abs/2012.01675) 
-[Ensemble Federated Adversarial Training with Non-IID data](https://federated-learning.org/fl-ijcai-2021/FTL-IJCAI21_paper_28.pdf) 
+
 -->
   <!-- 
   - Reseacher
@@ -30,6 +50,8 @@
   - [论文清单 联邦学习与图神经网络 21年·上](https://zhuanlan.zhihu.com/p/364602065)
   - [论文清单 联邦学习与图神经网络 21年·下](https://zhuanlan.zhihu.com/p/428104203)
   - [专栏: 基于GNN的联邦学习](https://www.zhihu.com/column/c_1439169871557328896)
+  - [文章速览 | 联邦学习 x 图与图网络（2022.09.06）](https://zhuanlan.zhihu.com/p/561951922)
+  - [Awesome-Federated-Learning-on-Graph-and-Tabular-Data](https://youngfish42.github.io/Awesome-Federated-Learning-on-Graph-and-Tabular-Data/#fl-in-top-ml-conference-and-journal)
   
 ## GNN
 
@@ -98,8 +120,7 @@
 - [中国联邦学习「五个大型项目」——学习方向参考](https://zhuanlan.zhihu.com/p/383550479)
 - [Enhancing Recommendation Diversity using Determinantal Point Processes on Knowledge Graphs](https://dl.acm.org/doi/10.1145/3397271.3401213)
 
-## Federated Recommendation Systems
-
+## Recommendation Systems
 - [Federated Recommendation Systems](https://link.springer.com/chapter/10.1007/978-3-030-63076-8_16)
   - [231/291](https://link.springer.com/content/pdf/10.1007%2F978-3-030-63076-8.pdf)
 - [NeurIPS 2019回顾来了！联邦学习+推荐场景，微众银行首创业界联邦推荐技术](https://zhuanlan.zhihu.com/p/97826564)
@@ -108,7 +129,10 @@
 - [Federated Collaborative Filtering for Privacy-Preserving Personalized Recommendation System](https://arxiv.org/abs/1901.09888)
 - [Robust Federated Recommendation System](https://arxiv.org/abs/2006.08259)
 - [FedRec: Federated Recommendation With Explicit Feedback](https://ieeexplore.ieee.org/abstract/document/9170754)
-
+- [Federated Social Recommendation with Graph Neural Network](https://arxiv.org/abs/2111.10778)
+- [Graph Neural Networks for Recommender Systems: Challenges, Methods, and Directions](https://arxiv.org/abs/2109.12843)  
+  - [2021图神经网络用于推荐系统的最新综述](https://zhuanlan.zhihu.com/p/415074448)  
+  - 4.4.1 GNN for Diversity
 ## Others
 
 [社区发现算法——louvain完全指南（更新于2021-08-29）](https://zhuanlan.zhihu.com/p/178790546)
